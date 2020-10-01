@@ -51,4 +51,23 @@ for TableObj in charTable.find_all('tr'):
         
 import dictConverter as DC
 DC.buildPlayableCharDict()
-            
+
+
+
+#########################################
+# *UPCOMING CHARACTERS*                 #
+#########################################
+
+upcomingCharTable = charReqSoup.find('table',class_ = 'article-table sortable')
+upcomingCharList = []
+
+#this class needs to be changed
+class upcomingCharClass:
+    def __init__(self,charRarity,charIcon,charName,charElem,charWep,charSex,charRegion):
+        self.charRarity = charRarity
+        self.charIcon = charIcon
+        self.charName = charName
+        self.charElem = charElem
+        self.charWep = charWep
+        self.charSex = charSex
+        self.charRegion = charRegion

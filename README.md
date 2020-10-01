@@ -1,2 +1,2 @@
 # Genshin Impact Wiki API
- Json data from the Genshin Impact Wiki
+ Automatically updated Json data from the Genshin Impact Wiki every ___ hours

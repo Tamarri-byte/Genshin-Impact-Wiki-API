@@ -1,0 +1,26 @@
+{
+  "Paimon":{
+    "name":"Paimon",
+    "element":"None",
+    "role":"The Traveler's Guide",
+    "region":"None"
+  },
+  "Signora":{
+    "name":"Signora",
+    "element":"Cryo",
+    "role":"Fatui's Eighth Harbinger",
+    "region":"Snezhnaya"
+  },
+  "Pulcinella":{
+    "name":"Pulcinella",
+    "element":"?",
+    "role":"The Harbinger",
+    "region":"Snezhnaya"
+  },
+  "Unknown God":{
+    "name":"Unknown God",
+    "element":"Unknown",
+    "role":"Unknown",
+    "region":"Unknown"
+  }
+}

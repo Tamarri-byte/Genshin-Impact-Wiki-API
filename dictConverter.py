@@ -19,3 +19,40 @@ def buildPlayableCharDict():
 
     with open("docs/characters/playableChar.json", 'w') as fp:
         json.dump(dict_playableChar,fp,indent=2,separators=(',', ':'))
+
+dict_upcomingChar = {}
+
+def buildUpcomingCharDict():
+    import charScraper as cs
+    ucl = cs.upcomingCharList
+    for x in range(len(ucl)):
+        charToAdd = {"name": ucl[x].charName.strip(),
+        "element": ucl[x].charElement.strip(),
+        "weapon": ucl[x].charWep.strip(),
+        "sex": ucl[x].charSex.strip(),
+        "region": ucl[x].charRegion.strip()}
+
+        dict_upcomingChar[ucl[x].charName.strip()] = charToAdd
+        
+
+    with open("docs/characters/upcomingChar.json", 'w') as fp:
+        json.dump(dict_upcomingChar,fp,indent=2,separators=(',', ':'))
+
+
+dict_nonPlayableChar = {}
+
+def buildNonPlayableCharDict():
+    import charScraper as cs
+    npcl = cs.nonPlayableCharList
+
+    for x in range(len(npcl)):
+        charToAdd = {"name": npcl[x].charName.strip(),
+        "element": npcl[x].charElem.strip(),
+        "role": npcl[x].charRole.strip(),
+        "region": npcl[x].charRegion.strip(),}
+
+        dict_nonPlayableChar[npcl[x].charName.strip()] = charToAdd
+
+
+    with open("docs/characters/nonplayableChar.json", 'w') as fp:
+        json.dump(dict_nonPlayableChar,fp,indent=2,separators=(',', ':'))

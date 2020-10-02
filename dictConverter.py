@@ -13,7 +13,8 @@ def buildPlayableCharDict():
         "elem": cl[x].charElem.strip(),
         "wep": cl[x].charWep.strip(),
         "sex": cl[x].charSex.strip(),
-        "region": cl[x].charRegion.strip()}
+        "region": cl[x].charRegion.strip(),
+        "talents" : cl[x].charTalentInfo}
 
         dict_playableChar[cl[x].charName.strip()] = charToAdd
 

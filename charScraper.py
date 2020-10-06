@@ -61,8 +61,12 @@ def getPlayableCharacters():
             index +=1
             
         charList.append(newChar)
-        
+
+    
+    
     charList.remove(charList[0])
+    print(len(charList))
+
     #Get Data from focused char page
     chIndex = 0
     for char in charList:
@@ -120,23 +124,16 @@ def getPlayableCharacters():
                 "type": tl[x].type.strip(),
                 "icon": tl[x].icon.strip(),
                 "info": tl[x].info.strip()}
-                #print(tl[x].name.strip())
+                print(tl[x].name.strip())
                 if tl[x].name in char.charTalentInfo:
                     char.charTalentInfo[tl[x].name].append(talentToAdd)
                 else:
                     char.charTalentInfo[tl[x].name] = [talentToAdd]
         
                 
-        print(chIndex)
-        chIndex += 1
-            
-        
-        
+        chIndex += 1        
 
-    import dictConverter as DC
-    DC.buildPlayableCharDict()
 
-getPlayableCharacters()
 #########################################
 # *UPCOMING CHARACTERS*                 #
 #########################################
@@ -174,7 +171,7 @@ def getUpcomingCharacters():
                 index +=1
                 
             upcomingCharList.append(upcomChar)
-
+    
     import dictConverter as DC
     DC.buildUpcomingCharDict()
 

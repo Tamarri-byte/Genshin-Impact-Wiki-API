@@ -1,5 +1,5 @@
-{
-  "Amber":{
+[
+  {
     "rarity":"4",
     "icon":"",
     "name":"Amber",
@@ -58,7 +58,7 @@
       ]
     }
   },
-  "Barbara":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Barbara",
@@ -107,17 +107,17 @@
           "info":"When a character gains an Elemental Orb/Particle, the duration of Let the Show Begin's Melody Loop is extended by 1s. The maximum extension is 5s."
         }
       ],
-      " Give It Your All ":[
+      " With My Whole Heart ":[
         {
-          "name":"Give It Your All",
+          "name":"With My Whole Heart",
           "type":"Passive Talent 3",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/eb/Talent_Give_It_Your_All.png/revision/latest?cb=20200820121235",
-          "info":"When Barbara cooks a boiled dish, the Perfect zone on the cooking meter is twice the normal size."
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/f0/Talent_With_My_Whole_Heart.png/revision/latest?cb=20201003231931",
+          "info":"When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
         }
       ]
     }
   },
-  "Beidou":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Beidou",
@@ -162,21 +162,21 @@
         {
           "name":"Lightning Storm",
           "type":"Passive Talent 2",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Lightning_Storm.png",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/8a/Talent_Lightning_Storm.png/revision/latest?cb=20201004223954",
           "info":"Gain the following effects for 10s after unleashing Tidecaller with its maximum DMG Bonus:\nDMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\nGreatly reduced delay before unleashing Charged Attacks."
         }
       ],
-      " Ironclad ":[
+      " Conqueror of Tides ":[
         {
-          "name":"Ironclad",
+          "name":"Conqueror of Tides",
           "type":"Passive Talent 3",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/47/Talent_Ironclad.png/revision/latest?cb=20200905031233",
-          "info":"When Beioud cooks a DEF dish, her perfect cooking range is increased by 100%."
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/d/d3/Talent_Conqueror_of_Tides.png/revision/latest?cb=20201005010530",
+          "info":"Decreases all party members' swimming Stamina consumption by 20%."
         }
       ]
     }
   },
-  "Bennett":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Bennett",
@@ -235,7 +235,7 @@
       ]
     }
   },
-  "Chongyun":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Chongyun",
@@ -294,7 +294,7 @@
       ]
     }
   },
-  "Diluc":{
+  {
     "rarity":"5",
     "icon":"",
     "name":"Diluc",
@@ -324,7 +324,7 @@
           "name":"Dawn",
           "type":"Combat Talent - Elemental Burst",
           "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/f5/Talent_Dawn.png/revision/latest?cb=20200905014756",
-          "info":"Flames emerge from Diluc, knocking back nearby enemies. The flames then converge into the blade, summoning a Phoenix that flies forward and deals Pyro DMG to all enemies in its path."
+          "info":"Releases intense flames to knock back nearby enemies, dealing Pyro DMG. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive Pyro DMG to all enemies in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG.\nThe searing flames that run down his blade cause Diluc's Normal and Charged Attacks to deal Pyro DMG for a time."
         }
       ],
       " Relentless ":[
@@ -340,20 +340,20 @@
           "name":"Blessing of Phoenix",
           "type":"Passive Talent 2",
           "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/c3/Talent_Blessing_of_Phoenix.png/revision/latest?cb=20200905014755",
-          "info":"For 12s after using Dawn, Diluc gains 20% Pyro DMG Bonus and his Normal and Charged Attacks deal Pyro DMG."
+          "info":"The Pyro Enchantment provided by Dawn lasts for 4s longer. Additionally. Diluc gains 20% Pyro DMG Bonus during the duration of this effect."
         }
       ],
-      " Cook for Battle ":[
+      " Tradition of the Dawn Knight ":[
         {
-          "name":"Cook for Battle",
+          "name":"Tradition of the Dawn Knight",
           "type":"Passive Talent 3",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/44/Talent_Cook_for_Battle.png/revision/latest?cb=20200905014756",
-          "info":"Diluc gains 1 additional Proficiency when he performs a Perfect Cooking."
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/af/Talent_Tradition_of_the_Dawn_Knight.png/revision/latest?cb=20201003211504",
+          "info":"Refunds 15% of the ores used when crafting Claymore-type weapons."
         }
       ]
     }
   },
-  "Fischl":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Fischl",
@@ -367,7 +367,7 @@
           "name":"Bolts of Downfall",
           "type":"Combat Talent - Normal/Charged Attack",
           "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/37/Talent_Bolts_of_Downfall.png/revision/latest?cb=20200905021741",
-          "info":"Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the en"
+          "info":"Normal Attack: Perform up to 5 consecutive shots with a bow.\nCharged Attack: Perform a more precise Aimed Shot with increased DMG. While aiming, the dark lightning spirits of Immernachtreich shall heed the call of their Prinzessin and indwell the enchanted arrowhead. When fully indwelt, the Rachs\u00fcchitg Blitz shall deal immense Electro DMG.\nPlunging Attack: Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact."
         }
       ],
       " Nightrider ":[
@@ -375,7 +375,7 @@
           "name":"Nightrider",
           "type":"Combat Talent - Elemental Skill",
           "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/b3/Talent_Nightrider.png/revision/latest?cb=20200905021743",
-          "info":"Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE.For the ability's duration, Oz will continuously attack nearby enemies with Freikugel.Hold to adjust the location Oz will be summoned to.Press again any time during the ability's duration to once again summon him to Fischl's side."
+          "info":"Summons Oz. The night raven forged of darkness and lightning descends upon the land, dealing Electro DMG in a small AoE.\nFor the ability's duration, Oz will continuously attack nearby enemies with Freikugel.\nHold to adjust the location Oz will be summoned to.\nPress again any time during the ability's duration to once again summon him to Fischl's side."
         }
       ],
       " Midnight Phantasmagoria ":[
@@ -383,7 +383,7 @@
           "name":"Midnight Phantasmagoria",
           "type":"Combat Talent - Elemental Burst",
           "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/ff/Talent_Midnight_Phantasmagoria.png/revision/latest?cb=20200905021742",
-          "info":"Summons Oz to spread his twin wings of twilight and defend Fischl. Has the following properties during the ability's duration:\nFischl takes on Oz's form, greatly increasing her Movement Speed.\nGreatly decreases the DMG Fischl takes.\nDeals Electro DMG to enemies she comes in contact with.\n\nThis ability can be canceled prematurely by leaving the field. Once this ability's effects end, it will return a portion of its Energy Cost."
+          "info":"Summons Oz to spread his twin wings of twilight and defend Fischl. Has the following properties during the ability's duration:\nFischl takes on Oz's form, greatly increasing her Movement Speed.\nStrikes nearby enemies with lightning, dealing Electro DMG to enemies she comes in contact with. Each enemy can only be struck once.\nOnce this ability's effects end, Oz will remain on the battlefield and attack his Prinzessin's foes. If Oz is already on the field, then this will reset the duration of his presence."
         }
       ],
       " Stellar Predator ":[
@@ -412,7 +412,7 @@
       ]
     }
   },
-  "Jean":{
+  {
     "rarity":"5",
     "icon":"",
     "name":"Jean",
@@ -471,7 +471,7 @@
       ]
     }
   },
-  "Kaeya":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Kaeya",
@@ -504,11 +504,11 @@
           "info":"Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him.These icicles will follow the character around and deal Cryo DMG to enemies in their path for so long as they persist."
         }
       ],
-      " Sword of Cruelty ":[
+      " Cold-Blooded Strike ":[
         {
-          "name":"Sword of Cruelty",
+          "name":"Cold-Blooded Strike",
           "type":"Passive Talent 1",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/3c/Talent_Sword_of_Cruelty.png/revision/latest?cb=20200603091941",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Cold-Blooded_Strike.png/revision/latest?cb=20201003222020",
           "info":"Every hit with Frostgnaw regenerates HP for Kaeya equal to 15% of his ATK."
         }
       ],
@@ -520,17 +520,17 @@
           "info":"Enemies Frozen by Frostgnaw will drop additional Elemental Particles. Frostgnaw may only produce a maximum of 2 additional Elemental Particles per use."
         }
       ],
-      " Energy Thirst ":[
+      " Hidden Strength ":[
         {
-          "name":"Energy Thirst",
+          "name":"Hidden Strength",
           "type":"Passive Talent 3",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/93/Talent_Energy_Thirst.png/revision/latest?cb=20200603092001",
-          "info":"When Kaeya crafts Character and Weapon Materials, he has a 20% chance to receive an additional crafted item."
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/8e/Talent_Hidden_Strength.png/revision/latest?cb=20201003223230",
+          "info":"Decreases all party members sprinting Stamina consumption by 20%"
         }
       ]
     }
   },
-  "Keqing":{
+  {
     "rarity":"5",
     "icon":"",
     "name":"Keqing",
@@ -589,7 +589,7 @@
       ]
     }
   },
-  "Klee":{
+  {
     "rarity":"5",
     "icon":"",
     "name":"Klee",
@@ -611,7 +611,7 @@
           "name":"Jumpy Dumpty",
           "type":"Combat Talent - Elemental Skill",
           "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/33/Talent_Jumpy_Dumpty.png/revision/latest?cb=20200905020926",
-          "info":"Jumpy Dumpty is tons of boom-band-fun!\nWhen thrown, Jumpy Dumpty bounces thrice, igniting and ealing AoE pyro DMG with every bounce.\nOn the third bounce, the bomb splits into many mines. The mines will explode upon contact with enemies, or after a short period of time, dealing AoE Pyro DMG.\nStarts with 2 charges."
+          "info":"Jumpy Dumpty is tons of boom-band-fun!\nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE pyro DMG with every bounce.\nOn the third bounce, the bomb splits into many mines. The mines will explode upon contact with enemies, or after a short period of time, dealing AoE Pyro DMG.\nStarts with 2 charges."
         }
       ],
       " Sparks 'n' Splash ":[
@@ -648,7 +648,7 @@
       ]
     }
   },
-  "Lisa":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Lisa",
@@ -707,7 +707,7 @@
       ]
     }
   },
-  "Mona":{
+  {
     "rarity":"5",
     "icon":"",
     "name":"Mona",
@@ -715,9 +715,58 @@
     "wep":"Catalyst",
     "sex":"Female",
     "region":"Mondstadt",
-    "talents":{}
+    "talents":{
+      " Ripple of Fate ":[
+        {
+          "name":"Ripple of Fate",
+          "type":"Combat Talent - Normal/Charged Attack",
+          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Ripple_of_Fate.png",
+          "info":"No Results"
+        }
+      ],
+      " Reflection of Doom ":[
+        {
+          "name":"Reflection of Doom",
+          "type":"Combat Talent - Elemental Skill",
+          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Reflection_of_Doom.png",
+          "info":"No Results"
+        }
+      ],
+      " Stellaris Phantasm ":[
+        {
+          "name":"Stellaris Phantasm",
+          "type":"Combat Talent - Elemental Burst",
+          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Stellaris_Phantasm.png",
+          "info":"No Results"
+        }
+      ],
+      " Come 'n' Get Me, Hag! ":[
+        {
+          "name":"Come 'n' Get Me, Hag!",
+          "type":"Passive Talent 1",
+          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Come_%27n%27_Get_Me,_Hag!.png",
+          "info":"No Results"
+        }
+      ],
+      " Waterborne Destiny ":[
+        {
+          "name":"Waterborne Destiny",
+          "type":"Passive Talent 2",
+          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Waterborne_Destiny.png",
+          "info":"No Results"
+        }
+      ],
+      " Principium of Astrology ":[
+        {
+          "name":"Principium of Astrology",
+          "type":"Passive Talent 3",
+          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Principium_of_Astrology.png",
+          "info":"No Results"
+        }
+      ]
+    }
   },
-  "Ningguang":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Ningguang",
@@ -776,7 +825,7 @@
       ]
     }
   },
-  "Noelle":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Noelle",
@@ -789,7 +838,7 @@
         {
           "name":"Favonius Bladework - Maid",
           "type":"Combat Talent - Normal/Charged Attack",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/38/Talent_Favonius_Bladework_-_Maid.png/revision/latest?cb=20201002190918",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/38/Talent_Favonius_Bladework_-_Maid.png/revision/latest?cb=20201003224242",
           "info":"Normal Attack: Performs up to 4 consecutive slashes\nCharged Attack: Drains Stamina over time to perform continuous swirling attack on all nearby enemies. At the end of the sequence, performs an additional powerful slash."
         }
       ],
@@ -797,7 +846,7 @@
         {
           "name":"Breastplate",
           "type":"Combat Talent - Elemental Skill",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/5a/Talent_Breastplate.png/revision/latest?cb=20201002191107",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/5a/Talent_Breastplate.png/revision/latest?cb=20201003224346",
           "info":"Summons protective stone armor, dealing Geo DMG to surrounding enemies and creating a shield. The shield's DMG Absorption scales based on Noelle's DEF.The shield has the following properties:\nWhen Noelle's Normal and Charged Attacks hit a target, they have a certain chance to regenerate HP for all characters, both on and off the field\nApplies the Geo element to the character.\nPossesses 250% Absorption Efficiency against Geo DMG\n\nThe amount of HP healed when regeneration is triggered scales based on on Noelle's DEF."
         }
       ],
@@ -805,7 +854,7 @@
         {
           "name":"Sweeping Time",
           "type":"Combat Talent - Elemental Burst",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Sweeping_Time.png/revision/latest?cb=20201002191146",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/7c/Talent_Sweeping_Time.png/revision/latest?cb=20201003224428",
           "info":"Gathering the strength of stone around her weapon, Noelle strikes the enemies surrounding her within a large AoE, dealing Geo DMG.Afterwards, Noelle gains the following effects:\nLarger attack AoE\nConverts attack DMG to Geo DMG\nIncreased ATK that scales based on her DEF."
         }
       ],
@@ -813,7 +862,7 @@
         {
           "name":"Devotion",
           "type":"Passive Talent 1",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/b2/Talent_Devotion.png/revision/latest?cb=20201002191324",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/b2/Talent_Devotion.png/revision/latest?cb=20201003224506",
           "info":"When Noelle is in the party but not on the field, this ability triggers automatically when the active character's HP falls below 30%: Creates a shield that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF. This effect can only occur once every 60s."
         }
       ],
@@ -829,13 +878,13 @@
         {
           "name":"Maid's Knighthood",
           "type":"Passive Talent 3",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Maid%27s_Knighthood.png",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/d/dd/Talent_Maid%27s_Knighthood.png/revision/latest?cb=20201003224144",
           "info":"When a  Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product."
         }
       ]
     }
   },
-  "Qiqi":{
+  {
     "rarity":"5",
     "icon":"",
     "name":"Qiqi",
@@ -848,8 +897,8 @@
         {
           "name":"Ancient Sword Art",
           "type":"Combat Talent - Normal/Charged Attack",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Ancient_Sword_Art.png",
-          "info":"Normal Attack: Perform up to 5 rapid strikes.Charged Attack: Consumes a certain amount Stamina to unleash 2 rapid sword strikes."
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/a5/Talent_Ancient_Sword_Art.png/revision/latest?cb=20201006065603",
+          "info":"Normal Attack: Perform up to 5 rapid strikes.Charged Attack: Consumes a certain amount Stamina to unleash 2 rapid sword strikes.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
         }
       ],
       " Adeptus Art: Herald of Frost ":[
@@ -872,7 +921,7 @@
         {
           "name":"Life-Prolonging Methods",
           "type":"Passive Talent 1",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Life-Prolonging_Methods.png",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/b5/Talent_Life-Prolonging_Methods.png/revision/latest?cb=20201006013807",
           "info":"When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
         }
       ],
@@ -880,7 +929,7 @@
         {
           "name":"A Glimpse into Arcanum",
           "type":"Passive Talent 2",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_A_Glimpse_into_Arcanum.png",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/37/Talent_A_Glimpse_into_Arcanum.png/revision/latest?cb=20201006013850",
           "info":"When Qiqi hits enemies with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s.\u00a0 This effect can only occur once every 30s."
         }
       ],
@@ -888,13 +937,13 @@
         {
           "name":"Former Life Memories",
           "type":"Passive Talent 3",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Former_Life_Memories.png",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/5e/Talent_Former_Life_Memories.png/revision/latest?cb=20201006013954",
           "info":"Displays the location of nearby resources unique to Liyue on the mini-map."
         }
       ]
     }
   },
-  "Razor":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Razor",
@@ -953,7 +1002,7 @@
       ]
     }
   },
-  "Sucrose":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Sucrose",
@@ -962,57 +1011,65 @@
     "sex":"Female",
     "region":"Mondstadt",
     "talents":{
-      " Wind Spirit Creation ":[
+      "n":[
         {
-          "name":"Wind Spirit Creation",
-          "type":"Combat Talent - Normal/Charged Attack",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Wind_Spirit_Creation.png",
-          "info":"Normal Attack: Performs up to 4 attacks using Wind Spirits, dealing Anemo DMG.\nCharged Attack: Consumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.\nPlunging Attack: Calling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all enemies in her path. Deals AoE Anemo DMG upon impact with the ground."
-        }
-      ],
-      " Astable Anemohypostasis Creation - 6308 ":[
+          "name":"n",
+          "type":"t",
+          "icon":"i",
+          "info":"inf"
+        },
         {
-          "name":"Astable Anemohypostasis Creation - 6308",
-          "type":"Combat Talent - Elemental Skill",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/76/Talent_Astable_Anemohypostasis_Creation_-_6308.png/revision/latest?cb=20200916181539",
-          "info":"Creates a small Wind Spirit that deals Anemo DMG to enemies in an AoE, pulling them towards the location of the Wind Spirit before launching them."
-        }
-      ],
-      " Forbidden Creation - Isomer 75 / Type II ":[
+          "name":"n",
+          "type":"t",
+          "icon":"i",
+          "info":"inf"
+        },
         {
-          "name":"Forbidden Creation - Isomer 75 / Type II",
-          "type":"Combat Talent - Elemental Burst",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/4d/Talent_Forbidden_Creation_-_Isomer_75_Type_II.png/revision/latest?cb=20200916181351",
-          "info":"Sucrose hurls an unstable concoction that creates a Large Wind Spirit. While it persists, the Large Wind Spirit will continuously pull and launch nearby enemies, dealing AoE Anemo DMG.\nElemental Absorption: If the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use."
-        }
-      ],
-      " Catalyst Conversion ":[
+          "name":"n",
+          "type":"t",
+          "icon":"i",
+          "info":"inf"
+        },
         {
-          "name":"Catalyst Conversion",
-          "type":"Passive Talent 1",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Catalyst_Conversion.png",
-          "info":"When Sucrose triggers a Swirl effect, characters in the party with the matching element have their Elemental Mastery increased by 50 for 8s."
-        }
-      ],
-      " Mollis Favonius ":[
+          "name":"n",
+          "type":"t",
+          "icon":"i",
+          "info":"inf"
+        },
         {
-          "name":"Mollis Favonius",
-          "type":"Passive Talent 2",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Mollis_Favonius.png",
-          "info":"When Astable Anemohypostasis Creation - 6308 or Forbidden Creation - Isomer 75 / Type II hit an enemy, increases other party members' Elemental Mastery based on 20% of Sucrose's Elemental Mastery for 8s."
-        }
-      ],
-      " Astable Invention ":[
+          "name":"n",
+          "type":"t",
+          "icon":"i",
+          "info":"inf"
+        },
         {
-          "name":"Astable Invention",
-          "type":"Passive Talent 3",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Astable_Invention.png",
-          "info":"When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product."
+          "name":"n",
+          "type":"t",
+          "icon":"i",
+          "info":"inf"
+        },
+        {
+          "name":"n",
+          "type":"t",
+          "icon":"i",
+          "info":"inf"
+        },
+        {
+          "name":"n",
+          "type":"t",
+          "icon":"i",
+          "info":"inf"
+        },
+        {
+          "name":"n",
+          "type":"t",
+          "icon":"i",
+          "info":"inf"
         }
       ]
     }
   },
-  "Traveler":{
+  {
     "rarity":"5",
     "icon":"",
     "name":"Traveler",
@@ -1071,7 +1128,7 @@
       ]
     }
   },
-  "Venti":{
+  {
     "rarity":"5",
     "icon":"",
     "name":"Venti",
@@ -1130,7 +1187,7 @@
       ]
     }
   },
-  "Xiangling":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Xiangling",
@@ -1189,7 +1246,7 @@
       ]
     }
   },
-  "Xiao":{
+  {
     "rarity":"5",
     "icon":"",
     "name":"Xiao",
@@ -1248,7 +1305,7 @@
       ]
     }
   },
-  "Xingqiu":{
+  {
     "rarity":"4",
     "icon":"",
     "name":"Xingqiu",
@@ -1297,14 +1354,14 @@
           "info":"Xingqiu gains a 20% Hydro DMG Bonus."
         }
       ],
-      " None ":[
+      " Flash of Genius ":[
         {
-          "name":"None",
+          "name":"Flash of Genius",
           "type":"Passive Talent 3",
-          "icon":"no img",
-          "info":"None"
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/bb/Talent_Flash_of_Genius.png/revision/latest?cb=20201004011045",
+          "info":"No Results"
         }
       ]
     }
   }
-}
+]

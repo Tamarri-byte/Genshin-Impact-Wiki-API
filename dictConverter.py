@@ -2,6 +2,7 @@ from ast import dump
 import json
 
 dict_playableChar = {}
+allplayabledicts = []
 
 def buildPlayableCharDict():
     import charScraper as cs
@@ -16,7 +17,10 @@ def buildPlayableCharDict():
         "region": cl[x].charRegion.strip(),
         "talents" : cl[x].charTalentInfo}
 
-        dict_playableChar[cl[x].charName.strip()] = charToAdd
+        #dict_playableChar = dict_playableChar + charToAdd
+        allplayabledicts.append(charToAdd)
+
+    dict_playableChar = allplayabledicts
 
     with open("docs/characters/playableChar.json", 'w') as fp:
         json.dump(dict_playableChar,fp,indent=2,separators=(',', ':'))

@@ -38,12 +38,16 @@ def getPlayableCharacters():
         newCharObj = TableObj.find_all('td')
         index = 0
         newChar = charClass('charRarity','charIcon','charName','charElem','charWep','charSex','charRegion',"url",{})
-
         for charData in newCharObj: #Retreive simple data from table
             if(index == 0):
                 newChar.charRarity = charData.text
             elif(index == 1):
-                newChar.charIcon = charData.text
+                
+                img = charData.find('a')
+                if(img):
+                    newChar.charIcon =  img['href']
+                else:
+                    newChar.charIcon =  "no img"
             elif(index == 2):
                 newChar.charName = charData.text
                 focusedCharData = charData.find('a')
@@ -65,7 +69,6 @@ def getPlayableCharacters():
     
     
     charList.remove(charList[0])
-    print(len(charList))
 
     #Get Data from focused char page
     chIndex = 0
@@ -124,7 +127,6 @@ def getPlayableCharacters():
                 "type": tl[x].type.strip(),
                 "icon": tl[x].icon.strip(),
                 "info": tl[x].info.strip()}
-                print(tl[x].name.strip())
                 if tl[x].name in char.charTalentInfo:
                     char.charTalentInfo[tl[x].name].append(talentToAdd)
                 else:

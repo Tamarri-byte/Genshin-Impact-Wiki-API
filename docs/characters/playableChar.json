@@ -1,7 +1,7 @@
 [
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/c6/Character_Amber_Thumb.png/revision/latest?cb=20200327220947",
     "name":"Amber",
     "elem":"Pyro",
     "wep":"Bow",
@@ -45,7 +45,7 @@
           "name":"Precise Shot",
           "type":"Passive Talent 2",
           "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/51/Talent_Precise_Shot.png/revision/latest?cb=20200531021551",
-          "info":"Aimed Shot hits on weak spots increase Base ATK by 10% for 10s"
+          "info":"Aimed Shot hits on weak spots increase Base ATK by 15% for 10s"
         }
       ],
       " Champion Glider ":[
@@ -60,7 +60,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/72/Character_Barbara_Thumb.png/revision/latest?cb=20200327221227",
     "name":"Barbara",
     "elem":"Hydro",
     "wep":"Catalyst",
@@ -119,7 +119,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/61/Character_Beidou_Thumb.png/revision/latest?cb=20200327221339",
     "name":"Beidou",
     "elem":"Electro",
     "wep":"Claymore",
@@ -178,7 +178,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png/revision/latest?cb=20200401105146",
     "name":"Bennett",
     "elem":"Pyro",
     "wep":"Sword",
@@ -237,7 +237,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/68/Character_Chongyun_Thumb.png/revision/latest?cb=20200603090201",
     "name":"Chongyun",
     "elem":"Cryo",
     "wep":"Claymore",
@@ -288,7 +288,7 @@
         {
           "name":"Gallant Journey",
           "type":"Passive Talent 3",
-          "icon":"/wiki/Special:Upload?wpDestFile=Talent_Gallant_Journey.png",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/c4/Talent_Gallant_Journey.png/revision/latest?cb=20201006220451",
           "info":"When dispatched on an expedition in Liyue, time consumed is reduced by 25%."
         }
       ]
@@ -296,7 +296,7 @@
   },
   {
     "rarity":"5",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/0/02/Character_Diluc_Thumb.png/revision/latest?cb=20200327221200",
     "name":"Diluc",
     "elem":"Pyro",
     "wep":"Claymore",
@@ -355,7 +355,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/14/Character_Fischl_Thumb.png/revision/latest?cb=20200331202202",
     "name":"Fischl",
     "elem":"Electro",
     "wep":"Bow",
@@ -414,7 +414,7 @@
   },
   {
     "rarity":"5",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/89/Character_Jean_Thumb.png/revision/latest?cb=20200327221111",
     "name":"Jean",
     "elem":"Anemo",
     "wep":"Sword",
@@ -473,7 +473,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/33/Character_Kaeya_Thumb.png/revision/latest?cb=20200327221032",
     "name":"Kaeya",
     "elem":"Cryo",
     "wep":"Sword",
@@ -532,7 +532,7 @@
   },
   {
     "rarity":"5",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/0/06/Character_Keqing_Thumb.png/revision/latest?cb=20200828163603",
     "name":"Keqing",
     "elem":"Electro",
     "wep":"Sword",
@@ -591,7 +591,7 @@
   },
   {
     "rarity":"5",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Klee_Thumb.png/revision/latest?cb=20200401053906",
     "name":"Klee",
     "elem":"Pyro",
     "wep":"Catalyst",
@@ -650,7 +650,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/51/Character_Lisa_Thumb.png/revision/latest?cb=20200327221057",
     "name":"Lisa",
     "elem":"Electro",
     "wep":"Catalyst",
@@ -709,7 +709,7 @@
   },
   {
     "rarity":"5",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Mona_Thumb.png/revision/latest?cb=20200828161153",
     "name":"Mona",
     "elem":"Hydro",
     "wep":"Catalyst",
@@ -721,7 +721,7 @@
           "name":"Ripple of Fate",
           "type":"Combat Talent - Normal/Charged Attack",
           "icon":"/wiki/Special:Upload?wpDestFile=Talent_Ripple_of_Fate.png",
-          "info":"No Results"
+          "info":"?"
         }
       ],
       " Reflection of Doom ":[
@@ -729,7 +729,7 @@
           "name":"Reflection of Doom",
           "type":"Combat Talent - Elemental Skill",
           "icon":"/wiki/Special:Upload?wpDestFile=Talent_Reflection_of_Doom.png",
-          "info":"No Results"
+          "info":"?"
         }
       ],
       " Stellaris Phantasm ":[
@@ -737,7 +737,7 @@
           "name":"Stellaris Phantasm",
           "type":"Combat Talent - Elemental Burst",
           "icon":"/wiki/Special:Upload?wpDestFile=Talent_Stellaris_Phantasm.png",
-          "info":"No Results"
+          "info":"?"
         }
       ],
       " Come 'n' Get Me, Hag! ":[
@@ -768,7 +768,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/2b/Character_Ningguang_Thumb.png/revision/latest?cb=20200327221345",
     "name":"Ningguang",
     "elem":"Geo",
     "wep":"Catalyst",
@@ -827,7 +827,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/ab/Character_Noelle_Thumb.png/revision/latest?cb=20200403105317",
     "name":"Noelle",
     "elem":"Geo",
     "wep":"Claymore",
@@ -886,7 +886,7 @@
   },
   {
     "rarity":"5",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Qiqi_Thumb.png/revision/latest?cb=20200828162409",
     "name":"Qiqi",
     "elem":"Cryo",
     "wep":"Sword",
@@ -897,7 +897,7 @@
         {
           "name":"Ancient Sword Art",
           "type":"Combat Talent - Normal/Charged Attack",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/a5/Talent_Ancient_Sword_Art.png/revision/latest?cb=20201006065603",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/a5/Talent_Ancient_Sword_Art.png/revision/latest?cb=20201007012537",
           "info":"Normal Attack: Perform up to 5 rapid strikes.Charged Attack: Consumes a certain amount Stamina to unleash 2 rapid sword strikes.\nPlunging Attack: Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact."
         }
       ],
@@ -906,7 +906,7 @@
           "name":"Adeptus Art: Herald of Frost",
           "type":"Combat Talent - Elemental Skill",
           "icon":"/wiki/Special:Upload?wpDestFile=Talent_Adeptus_Art:_Herald_of_Frost.png",
-          "info":"Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to nearby enemies.\nHerald of Frost\n\nWhen Qiqi hits a target with her Normal or Charged Attacks, she regenerates HP for all party members and all nearby allied characters.  Healing scales based on Qiqi's ATK.\nRegenerates HP for current character at regular intervals.\nFollows the character around, dealing Cryo DMG to enemies in its path."
+          "info":"Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to nearby enemies.\nHerald of Frost:\n\nWhen Qiqi hits a target with her Normal or Charged Attacks, she regenerates HP for all party members and all nearby allied characters. Healing scales based on Qiqi's ATK.\nRegenerates HP for the current character at regular intervals.\nFollows the character around, dealing Cryo DMG to enemies in its path."
         }
       ],
       " Adeptus Art: Preserver of Fortune ":[
@@ -921,7 +921,7 @@
         {
           "name":"Life-Prolonging Methods",
           "type":"Passive Talent 1",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/b5/Talent_Life-Prolonging_Methods.png/revision/latest?cb=20201006013807",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/b5/Talent_Life-Prolonging_Methods.png/revision/latest?cb=20201007013352",
           "info":"When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
         }
       ],
@@ -937,7 +937,7 @@
         {
           "name":"Former Life Memories",
           "type":"Passive Talent 3",
-          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/5e/Talent_Former_Life_Memories.png/revision/latest?cb=20201006013954",
+          "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/5e/Talent_Former_Life_Memories.png/revision/latest?cb=20201007013629",
           "info":"Displays the location of nearby resources unique to Liyue on the mini-map."
         }
       ]
@@ -945,7 +945,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/1d/Character_Razor_Thumb.png/revision/latest?cb=20200401142543",
     "name":"Razor",
     "elem":"Electro",
     "wep":"Claymore",
@@ -1004,7 +1004,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/61/Character_Sucrose_Thumb.png/revision/latest?cb=20200724045342",
     "name":"Sucrose",
     "elem":"Anemo",
     "wep":"Catalyst",
@@ -1071,7 +1071,7 @@
   },
   {
     "rarity":"5",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/71/Character_Traveler_Thumb.png/revision/latest?cb=20200327223204",
     "name":"Traveler",
     "elem":"Adaptive",
     "wep":"Sword",
@@ -1130,7 +1130,7 @@
   },
   {
     "rarity":"5",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/8d/Character_Venti_Thumb.png/revision/latest?cb=20200327221212",
     "name":"Venti",
     "elem":"Anemo",
     "wep":"Bow",
@@ -1189,7 +1189,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png/revision/latest?cb=20200327221404",
     "name":"Xiangling",
     "elem":"Pyro",
     "wep":"Polearm",
@@ -1248,7 +1248,7 @@
   },
   {
     "rarity":"5",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Xiao_Thumb.png/revision/latest?cb=20200327221359",
     "name":"Xiao",
     "elem":"Anemo",
     "wep":"Polearm",
@@ -1307,7 +1307,7 @@
   },
   {
     "rarity":"4",
-    "icon":"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png/revision/latest?cb=20200327221353",
     "name":"Xingqiu",
     "elem":"Hydro",
     "wep":"Sword",

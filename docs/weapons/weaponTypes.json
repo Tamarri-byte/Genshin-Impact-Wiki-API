@@ -1,0 +1,992 @@
+[
+  {
+    "name":"Swords\n",
+    "info":"Swords attacks are the middle ground of melee weapons, the damage of their hits and speed of their attacks are somewhere in between the slow attacks of\u00a0Claymores\u00a0and the rapid attacks of\u00a0Polearms.\n",
+    "weapons":[
+      {
+        "name":"Skyward Blade\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/0/03/Weapon_Skyward_Blade.png/revision/latest?cb=20200621000332",
+        "rarity":"5\n",
+        "baseAtk":"46\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Sky-Piercing Fang\n",
+        "rank1":"Crit Rate increased by 4%. Gains Skypiercing Might upon using Elemental Burst: Increases Movement SPD by 10%, increases ATK SPD by 10%, and increases the DMG of Normal and Charged Attack hits by 20% for 12s.\n",
+        "rank5":"Crit Rate increased by 8%. Gains Skypiercing Might upon using Elemental Burst: Increases Movement SPD by 10%, increases ATK SPD by 10%, and increases the DMG of Normal and Charged Attack hits by 40% for 12s.\n"
+      },
+      {
+        "name":"Aquila Favonia\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/6a/Weapon_Aquila_Favonia.png/revision/latest?cb=20201006033423",
+        "rarity":"5\n",
+        "baseAtk":"48\n",
+        "secStat":"Physical DMG Bonus\n",
+        "pass":"Falcon's Defiance\n",
+        "rank1":"ATK is increased by 20%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 100% of ATK and dealing 200% of ATK as DMG to surrounding enemies. This effect can only occur once every 15s.\n",
+        "rank5":"ATK is increased by 40%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 160% of ATK and dealing 320% of ATK as DMG to surrounding enemies. This effect can only occur once every 15s.\n"
+      },
+      {
+        "name":"Blackcliff Longsword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/6f/Weapon_Blackcliff_Longsword.png/revision/latest?cb=20200618235000",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"Physical DMG Bonus\n",
+        "pass":"Press the Advantage\n",
+        "rank1":"After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.\n",
+        "rank5":"After defeating an enemy, ATK is increased by 24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.\n"
+      },
+      {
+        "name":"The Flute\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/63/Weapon_The_Flute.png/revision/latest?cb=20200620235804",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Base ATK\n",
+        "pass":"Chord\n",
+        "rank1":"Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals 100% ATK DMG to surrounding enemies. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.\n",
+        "rank5":"Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals 200% ATK DMG to surrounding enemies. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s.\n"
+      },
+      {
+        "name":"The Black Sword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_The_Black_Sword.png/revision/latest?cb=20201005104458",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Justice\n",
+        "rank1":"Increases DMG dealt by Normal and Charged Attacks by 16%.Additionally, regenerates 60% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"The Alley Flash\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/83/Weapon_The_Alley_Flash.png/revision/latest?cb=20200719050822",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Itinerant Hero\n",
+        "rank1":"Continuosly sprinting for at least 1s increases ATK by 28% for 6s. This effect cannot stack.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"Sword of Descension\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Sword_of_Descension.png/revision/latest?cb=20201003173750",
+        "rarity":"4\n",
+        "baseAtk":"39\n",
+        "secStat":"ATK\n",
+        "pass":"Descension\n",
+        "rank1":"Hitting enemies with Normal or Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"Sacrificial Sword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/a0/Weapon_Sacrificial_Sword.png/revision/latest?cb=20200620235557",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Composed\n",
+        "rank1":"After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"Royal Longsword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/cd/Weapon_Royal_Longsword.png/revision/latest?cb=20200620235317",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Base ATK\n",
+        "pass":"Focus\n",
+        "rank1":"Upon dealing damage to an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT hit removes all existing stacks.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"Prototype Rancour\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/ef/Weapon_Prototype_Rancour.png/revision/latest?cb=20200620234906",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"Physical DMG Bonus\n",
+        "pass":"Smashed Stone\n",
+        "rank1":"On hit, Normal or Charged Attacks increase Base ATK and DEF by 4% for 6s. Max 4 stacks. Can only occur once every 0.3s.\n",
+        "rank5":"On hit, Normal or Charged Attacks increase Base ATK and DEF by 8% for 6s. Max 4 stacks. Can only occur once every 0.3s.\n"
+      },
+      {
+        "name":"Lion's Roar\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/e6/Weapon_Lion%27s_Roar.png/revision/latest?cb=20200620234652",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"ATK\n",
+        "pass":"Bane of Fire and Thunder\n",
+        "rank1":"Increases DMG against enemies affected by Pyro or Electro by 20%.\n",
+        "rank5":"Increases DMG against enemies affected by Pyro or Electro by 40%.\n"
+      },
+      {
+        "name":"Iron Sting\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/35/Weapon_Iron_Sting.png/revision/latest?cb=20200620234336",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Infusion Stinger\n",
+        "rank1":"Dealing Elemental DMG increases all DMG by 8% for 6s. Max 2 stacks. Can only occur once every 1s.\n",
+        "rank5":"Dealing Elemental DMG increases all DMG by 16% for 6s. Max 2 stacks. Can only occur once every 1s.\n"
+      },
+      {
+        "name":"Favonius Sword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/90/Weapon_Favonius_Sword.png/revision/latest?cb=20200716180436",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Windfall\n",
+        "rank1":"CRIT hits have a 60% chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every 12s.\n",
+        "rank5":"CRIT hits have a 100% chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every 6s.\n"
+      },
+      {
+        "name":"Harbinger of Dawn\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/23/Weapon_Harbinger_of_Dawn.png/revision/latest?cb=20200620190840",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"CRIT DMG\n",
+        "pass":"Vigorous\n",
+        "rank1":"When HP is above 90%, increases CRIT Rate by 14%.\n",
+        "rank5":"When HP is above 90%, increases CRIT Rate by 28%.\n"
+      },
+      {
+        "name":"Skyrider Sword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/34/Weapon_Skyrider_Sword.png/revision/latest?cb=20200706102839",
+        "rarity":"3\n",
+        "baseAtk":"38\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Determination\n",
+        "rank1":"Using an Elemental Burst grants a 12% increase in Base ATK and Movement SPD for 15s.\n",
+        "rank5":"Using an Elemental Burst grants a 24% increase in Base ATK and Movement SPD for 15s.\n"
+      },
+      {
+        "name":"Fillet Blade\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/f7/Weapon_Fillet_Blade.png/revision/latest?cb=20201005040553",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"ATK\n",
+        "pass":"Gash\n",
+        "rank1":"On hit, has 50% chance to deal 240% ATK DMG to a single enemy. Can only occur once every 15s.\n",
+        "rank5":"On hit, has 50% chance to deal 400% ATK DMG to a single enemy. Can only occur once every 11s.\n"
+      },
+      {
+        "name":"Dark Iron Sword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Dark_Iron_Sword.png/revision/latest?cb=20200620190232",
+        "rarity":"3\n",
+        "baseAtk":"40\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Overloaded\n",
+        "rank1":"Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, increases Base ATK by 20% for 12s.\n",
+        "rank5":"Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, increases Base ATK by 40% for 12s.\n"
+      },
+      {
+        "name":"Cool Steel\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Cool_Steel.png/revision/latest?cb=20200620190036",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"ATK\n",
+        "pass":"Bane of Water and Ice\n",
+        "rank1":"Increases DMG against enemies affected by Hydro or Cryo by 12%.\n",
+        "rank5":"Increases DMG against enemies affected by Hydro or Cryo by 24%.\n"
+      },
+      {
+        "name":"Traveler's Handy Sword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/c9/Weapon_Traveler%27s_Handy_Sword.png/revision/latest?cb=20201005041312",
+        "rarity":"3\n",
+        "baseAtk":"40\n",
+        "secStat":"DEF\n",
+        "pass":"Journey\n",
+        "rank1":"Each Elemental Orb or Particle collected restores 1% HP.\n",
+        "rank5":"Each Elemental Orb or Particle collected restores 2% HP.\n"
+      },
+      {
+        "name":"Silver Sword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/32/Weapon_Silver_Sword.png/revision/latest?cb=20200620185554",
+        "rarity":"2\n",
+        "baseAtk":"33\n",
+        "secStat":"None\n",
+        "pass":"None\n",
+        "rank1":"None\n",
+        "rank5":"None\n"
+      },
+      {
+        "name":"Dull Blade\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/2f/Weapon_Dull_Blade.png/revision/latest?cb=20200620163746",
+        "rarity":"1\n",
+        "baseAtk":"23\n",
+        "secStat":"None\n",
+        "pass":"None\n",
+        "rank1":"None\n",
+        "rank5":"None\n"
+      }
+    ]
+  },
+  {
+    "name":"Bows\n",
+    "info":"Bows boast long-ranged attacks in the game, with charged attacks that are capable of hitting monsters as far as the eye can see with the proper aim.\n",
+    "weapons":[
+      {
+        "name":"Amos' Bow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/d/de/Weapon_Amos%27_Bow.png/revision/latest?cb=20200619000921",
+        "rarity":"5\n",
+        "baseAtk":"46\n",
+        "secStat":"Base ATK\n",
+        "pass":"Strong-Willed\n",
+        "rank1":"Increases Normal Attack and Aimed Shot DMG by 12%. Increases DMG from arrows shot by a further 8% for every 0.1s that the arrow is in flight, up to 0.5s.\n",
+        "rank5":"Increases Normal Attack and Aimed Shot DMG by 24%. Increases DMG from arrows shot by a further 16% for every 0.1s that the arrow is in flight, up to 0.5s.\n"
+      },
+      {
+        "name":"Skyward Harp\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/19/Weapon_Skyward_Harp.png/revision/latest?cb=20200619013227",
+        "rarity":"5\n",
+        "baseAtk":"45\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Echoing Ballad\n",
+        "rank1":"Increases CRIT DMG by 20%. Hits have a 60% chance to inflict a small AoE attack, dealing 100% Physical ATK DMG. Can only occur once every 4s.\n",
+        "rank5":"Increases CRIT DMG by 40%. Hits have a 100% chance to inflict a small AoE attack, dealing 100% Physical ATK DMG. Can only occur once every 4s.\n"
+      },
+      {
+        "name":"Alley Hunter\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/0/0a/Weapon_Alley_Hunter.png/revision/latest?cb=20200716174401",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Urban Guerrilla\n",
+        "rank1":"Every 4s a character is on the field, their ATK increases by 4% and their CRIT DMG increases by 4%. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be cleared when the character takes DMG.\n",
+        "rank5":"Every 4s a character is on the field, their ATK increases by 8% and their CRIT DMG increases by 8%. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be cleared when the character takes DMG.\n"
+      },
+      {
+        "name":"The Stringless\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/71/Weapon_The_Stringless.png/revision/latest?cb=20200619005804",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Arrowless Song\n",
+        "rank1":"Increases Elemental Skill and Elemental Burst DMG by 24%.\n",
+        "rank5":"Increases Elemental Skill and Elemental Burst DMG by 48%.\n"
+      },
+      {
+        "name":"Sacrificial Bow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/ec/Weapon_Sacrificial_Bow.png/revision/latest?cb=20200619012915",
+        "rarity":"4\n",
+        "baseAtk":"43\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Composed\n",
+        "rank1":"After dealing damage to an enemy with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 15s.\n",
+        "rank5":"After dealing damage to an enemy with an Elemental Skill, the skill has an 80% chance to end its own CD. Can only occur once every 11s.\n"
+      },
+      {
+        "name":"Rust\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/1c/Weapon_Rust.png/revision/latest?cb=20200619005218",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Base ATK\n",
+        "pass":"Rapid Firing\n",
+        "rank1":"Increases Normal Attack DMG by 40% but decreases Aimed Shot DMG by 10%\n",
+        "rank5":"Increases Normal Attack DMG by 80% but decreases Aimed Shot DMG by 10%\n"
+      },
+      {
+        "name":"Royal Bow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Bow.png/revision/latest?cb=20200619003527",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"ATK\n",
+        "pass":"Focus\n",
+        "rank1":"Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT hit removes all stacks.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"The Viridescent Hunt\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/ff/Weapon_The_Viridescent_Hunt.png/revision/latest?cb=20201005205721",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Verdant Wind\n",
+        "rank1":"Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding enemies, dealing 40% of ATK as DMG to these enemies every 0.5s for 4s. This effect can only occur once every 14s.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"Prototype Crescent\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/43/Weapon_Prototype_Crescent.png/revision/latest?cb=20200702153759",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"ATK\n",
+        "pass":"Unreturning\n",
+        "rank1":"Aimed Shot hits on weak points increase Movement SPD by 10% and ATK by 36% for 10s.\n",
+        "rank5":"Aimed Shot hits on weak points increase Movement SPD by 10% and ATK by 72% for 10s.\n"
+      },
+      {
+        "name":"Favonius Warbow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/85/Weapon_Favonius_Warbow.png/revision/latest?cb=20200619003125",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Windfall\n",
+        "rank1":"CRIT hits have a 60% chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every 12s.\n",
+        "rank5":"CRIT hits have a 100% chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every 6s.\n"
+      },
+      {
+        "name":"Compound Bow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/32/Weapon_Compound_Bow.png/revision/latest?cb=20200619001506",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"Physical DMG Bonus\n",
+        "pass":"Infusion Arrow\n",
+        "rank1":"Normal Attack and Aimed Shot hits increase ATK by 4% and Normal ATK SPD by 1.2% for 6s. Max 4 stacks. Can only occur once every 0.3s.\n",
+        "rank5":"Normal Attack and Aimed Shot hits increase ATK by 8% and Normal ATK SPD by 2.4% for 6s. Max 4 stacks. Can only occur once every 0.3s.\n"
+      },
+      {
+        "name":"Blackcliff Warbow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/b8/Weapon_Blackcliff_Warbow.png/revision/latest?cb=20200714220958",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"Base ATK\n",
+        "pass":"Press the Advantage\n",
+        "rank1":"After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.\n",
+        "rank5":"After defeating an enemy, ATK is increased by 24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.\n"
+      },
+      {
+        "name":"Raven Bow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/d/d0/Weapon_Raven_Bow.png/revision/latest?cb=20200619010511",
+        "rarity":"3\n",
+        "baseAtk":"40\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Bane of Flame and Water\n",
+        "rank1":"Increases DMG against enemies affected by Hydro or Pyro by 12%.\n",
+        "rank5":"Increases DMG against enemies affected by Hydro or Pyro by 24%.\n"
+      },
+      {
+        "name":"Messenger\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/38/Weapon_Messenger.png/revision/latest?cb=20201004010104",
+        "rarity":"3\n",
+        "baseAtk":"40\n",
+        "secStat":"CRIT DMG\n",
+        "pass":"Archer's Message\n",
+        "rank1":"Aimed Shot hits on weak spots deal an additional 100% ATK DMG as CRIT DMG. Can only occur once every 10s.\n",
+        "rank5":"Aimed Shot hits on weak spots deal an additional 200% ATK DMG as CRIT DMG. Can only occur once every 10s.\n"
+      },
+      {
+        "name":"Ebony Bow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/a1/Weapon_Ebony_Bow.png/revision/latest?cb=20200619005942",
+        "rarity":"3\n",
+        "baseAtk":"40\n",
+        "secStat":"Base ATK\n",
+        "pass":"Decimate\n",
+        "rank1":"Increases DMG against mechanoid Ruin enemies by 40%.\n",
+        "rank5":"Increases DMG against mechanoid Ruin enemies by 80%.\n"
+      },
+      {
+        "name":"Sharpshooter's Oath\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/52/Weapon_Sharpshooter%27s_Oath.png/revision/latest?cb=20200619010903",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"CRIT DMG\n",
+        "pass":"Precise\n",
+        "rank1":"Increases DMG against weak spots by 24%.\n",
+        "rank5":"Increases DMG against weak spots by 48%.\n"
+      },
+      {
+        "name":"Slingshot\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/ca/Weapon_Slingshot.png/revision/latest?cb=20200619011230",
+        "rarity":"3\n",
+        "baseAtk":"38\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Slingshot\n",
+        "rank1":"If a Normal Attack or Aimed Shot hits a target within 0.3s of being fired, increases DMG by 36%. Otherwise, it decreases DMG by 10%.\n",
+        "rank5":"If a Normal Attack or Aimed Shot hits a target within 0.3s of being fired, increases DMG by 60%. Otherwise, it decreases DMG by 10%.\n"
+      },
+      {
+        "name":"Recurve Bow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/b5/Weapon_Recurve_Bow.png/revision/latest?cb=20201004012859",
+        "rarity":"3\n",
+        "baseAtk":"38\n",
+        "secStat":"Base HP\n",
+        "pass":"Cull the Weak\n",
+        "rank1":"Defeating an opponent restores 8% HP.\n",
+        "rank5":"Defeating an opponent restores 16% HP.\n"
+      },
+      {
+        "name":"Seasoned Hunter's Bow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/82/Weapon_Seasoned_Hunter%27s_Bow.png/revision/latest?cb=20200619011705",
+        "rarity":"2\n",
+        "baseAtk":"33\n",
+        "secStat":"None\n",
+        "pass":"None\n",
+        "rank1":"None\n",
+        "rank5":"None\n"
+      },
+      {
+        "name":"Hunter's Bow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/44/Weapon_Hunter%27s_Bow.png/revision/latest?cb=20200619011936",
+        "rarity":"1\n",
+        "baseAtk":"23\n",
+        "secStat":"None\n",
+        "pass":"None\n",
+        "rank1":"None\n",
+        "rank5":"None\n"
+      }
+    ]
+  },
+  {
+    "name":"Polearms\n",
+    "info":"Polearms have the fastest attacks of all the weapons and good forward reach.\n",
+    "weapons":[
+      {
+        "name":"Kunwu's Iris Rift\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/93/Weapon_Kunwu%27s_Iris_Rift.png/revision/latest?cb=20200620090051",
+        "rarity":"5\n",
+        "baseAtk":"46\n",
+        "secStat":"Base ATK\n",
+        "pass":"Rainbow-Piercing Stinger\n",
+        "rank1":"Increases Normal Attack SPD by 10%. Increases DMG against enemies affected by any element by 24%.\n",
+        "rank5":"Increases Normal Attack SPD by 18%. Increases DMG against enemies affected by any element by 48%.\n"
+      },
+      {
+        "name":"Primordial Jade Winged-Spear\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/80/Weapon_Primordial_Jade_Winged-Spear.png/revision/latest?cb=20200716204206",
+        "rarity":"5\n",
+        "baseAtk":"48\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Eagle Spear of Justice\n",
+        "rank1":"On hit, increases ATK by 3.2% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, increases Skill DMG by 12%.\n",
+        "rank5":"On hit, increases ATK by 6.0% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, increases Skill DMG by 24%.\n"
+      },
+      {
+        "name":"Skyward Spine\n",
+        "img":"/wiki/Special:Upload?wpDestFile=Weapon_Skyward_Spine.png",
+        "rarity":"5\n",
+        "baseAtk":"N/A\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Blackwing\n",
+        "rank1":"Increases CRIT Rate by 8% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on enemies have a 50% chance to trigger a vaccuum blade that deals 40% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.\n",
+        "rank5":"Increases CRIT Rate by 16% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on enemies have a 50% chance to trigger a vaccuum blade that deals 100% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s.\n"
+      },
+      {
+        "name":"Blackcliff Pole\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/d/d5/Weapon_Blackcliff_Pole.png/revision/latest?cb=20200619063418",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"CRIT DMG\n",
+        "pass":"Press the Advantage\n",
+        "rank1":"After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.\n",
+        "rank5":"After defeating an enemy, ATK is increased by 24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.\n"
+      },
+      {
+        "name":"Crescent Pike\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Crescent_Pike.png/revision/latest?cb=20200618235632",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"Physical DMG Bonus\n",
+        "pass":"Infusion Needle\n",
+        "rank1":"After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal an additional 24% ATK as DMG for 5s.\n",
+        "rank5":"After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal an additional 48% ATK as DMG for 5s.\n"
+      },
+      {
+        "name":"Deathmatch\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/69/Weapon_Deathmatch.png/revision/latest?cb=20201005210449",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Gladiator\n",
+        "rank1":"If there are at least 2 enemies nearby, ATK is increased by 16% and DEF is increased by 16%. If there are less than 2 enemies nearby, ATK is increased by 24%.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"Dragon's Bane\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/24/Weapon_Dragon%27s_Bane.png/revision/latest?cb=20200620085449",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Bane of Flame and Water\n",
+        "rank1":"Increases DMG against enemies affected by Hydro or Pyro by 20%.\n",
+        "rank5":"Increases DMG against enemies affected by Hydro or Pyro by 36%.\n"
+      },
+      {
+        "name":"Favonius Lance\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/57/Weapon_Favonius_Lance.png/revision/latest?cb=20200928181912",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Windfall\n",
+        "rank1":"CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s\n",
+        "rank5":"CRIT Hits have a 100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 6s\n"
+      },
+      {
+        "name":"Lithic Spear\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/2a/Weapon_Lithic_Spear.png/revision/latest?cb=20200716171905",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Physical DMG Bonus\n",
+        "pass":"Lithic Axiom - Subjugating Evil\n",
+        "rank1":"Normal Attack hits have a 20% chance of causing the next Charged Attack performed in the following 10s to deal 40% increased DMG.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"Prototype Grudge\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/7a/Weapon_Prototype_Grudge.png/revision/latest?cb=20200620085749",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Magic Affinity\n",
+        "rank1":"After using an Elemental Skill, increases Normal and Charged Attack DMG by 12% for 12s. Max 2 stacks.\n",
+        "rank5":"After using an Elemental Skill, increases Normal and Charged Attack DMG by 24% for 12s. Max 2 stacks.\n"
+      },
+      {
+        "name":"Black Tassel\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/43/Weapon_Black_Tassel.png/revision/latest?cb=20200620084411",
+        "rarity":"3\n",
+        "baseAtk":"38\n",
+        "secStat":"HP\n",
+        "pass":"Bane of the Soft\n",
+        "rank1":"Increases DMG against slimes by 40%.\n",
+        "rank5":"Increases DMG against slimes by 80%.\n"
+      },
+      {
+        "name":"Halberd\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/41/Weapon_Halberd.png/revision/latest?cb=20200717024129",
+        "rarity":"3\n",
+        "baseAtk":"40\n",
+        "secStat":"Base ATK\n",
+        "pass":"Heavy\n",
+        "rank1":"Normal Attacks deal an additional 160% DMG. Can only occur once every 10s.\n",
+        "rank5":"Normal Attacks deal an additional 320% DMG. Can only occur once every 10s.\n"
+      },
+      {
+        "name":"White Tassel\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/1f/Weapon_White_Tassel.png/revision/latest?cb=20200706003434",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Sharp\n",
+        "rank1":"Increases Normal Attack DMG by 24%.\n",
+        "rank5":"Increases Normal Attack DMG by 48%.\n"
+      },
+      {
+        "name":"Iron Point\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/25/Weapon_Iron_Point.png/revision/latest?cb=20200620083932",
+        "rarity":"2\n",
+        "baseAtk":"33\n",
+        "secStat":"None\n",
+        "pass":"None\n",
+        "rank1":"None\n",
+        "rank5":"None\n"
+      },
+      {
+        "name":"Beginner's Protector\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/fc/Weapon_Beginner%27s_Protector.png/revision/latest?cb=20200620083751",
+        "rarity":"1\n",
+        "baseAtk":"23\n",
+        "secStat":"None\n",
+        "pass":"None\n",
+        "rank1":"None\n",
+        "rank5":"None\n"
+      }
+    ]
+  },
+  {
+    "name":"Claymores\n",
+    "info":"Claymores restrict the character wielding it to slower hits than other melee weapons deal much more damage per swing. Claymores also have a damage bonus towards breaking\u00a0Geo\u00a0objects, like a monster's shield.\n",
+    "weapons":[
+      {
+        "name":"Wolf's Gravestone\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/4f/Weapon_Wolf%27s_Gravestone.png/revision/latest?cb=20200620184433",
+        "rarity":"5\n",
+        "baseAtk":"46\n",
+        "secStat":"Base ATK\n",
+        "pass":"Wolfish Tracker\n",
+        "rank1":"Increases Base ATK by 20%. On hit, attacks against enemies with less than 30% HP increase all party members' Base ATK by 40% for 12s. Can only occur once every 30s.\n",
+        "rank5":"Increases Base ATK by 40%. On hit, attacks against enemies with less than 30% HP increase all party members' Base ATK by 80% for 12s. Can only occur once every 30s.\n"
+      },
+      {
+        "name":"Skyward Pride\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/0/0b/Weapon_Skyward_Pride.png/revision/latest?cb=20200620082616",
+        "rarity":"5\n",
+        "baseAtk":"48\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Sky-ripping Dragon Spine\n",
+        "rank1":"Increases all DMG by 8%. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does 80% of ATK as DMG to enemies along its path. Lasts for 20s or 8 vacuum blades.\n",
+        "rank5":"Increases all DMG by 16%. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does 160% of ATK as DMG to enemies along its path. Lasts for 20s or 8 vacuum blades.\n"
+      },
+      {
+        "name":"Rainslasher\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/d/d4/Weapon_Rainslasher.png/revision/latest?cb=20200620074157",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Bane of Storm and Tide\n",
+        "rank1":"Increases DMG against enemies affected by Hydro or Electro by 20%.\n",
+        "rank5":"Increases DMG against enemies affected by Hydro or Electro by 36%.\n"
+      },
+      {
+        "name":"Whiteblind\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/0/04/Weapon_Whiteblind.png/revision/latest?cb=20200620082127",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Base DEF\n",
+        "pass":"Infusion Blade\n",
+        "rank1":"On hit, Normal or Charged Attacks increase Base ATK and DEF by 6% for 6s. Max 4 stacks. Can only occur once every 0.5s.\n",
+        "rank5":"On hit, Normal or Charged Attacks increase Base ATK and DEF by 12% for 6s. Max 4 stacks. Can only occur once every 0.5s.\n"
+      },
+      {
+        "name":"The Bell\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/6e/Weapon_The_Bell.png/revision/latest?cb=20200620081855",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Rebellious Guardian\n",
+        "rank1":"Taking DMG generates a shield which absorbs DMG up to 20% of max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by the shield, the character gains 12% increased DMG.\n",
+        "rank5":"Taking DMG generates a shield which absorbs DMG up to 32% of max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by the shield, the character gains 24% increased DMG.\n"
+      },
+      {
+        "name":"Serpent Spine\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/88/Weapon_Serpent_Spine.png/revision/latest?cb=20201005105539",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Wavesplitter\n",
+        "rank1":"Every 4s a character is on the field, they will deal 6% more DMG and take 3% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"Sacrificial Greatsword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/17/Weapon_Sacrificial_Greatsword.png/revision/latest?cb=20201005011151",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Composed\n",
+        "rank1":"After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.\n",
+        "rank5":"After damaging an opponent with an Elemental Skill, the skill has a 80% chance to end its own CD. Can only occur once every 14s.\n"
+      },
+      {
+        "name":"Blackcliff Slasher\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/d/d7/Weapon_Blackcliff_Slasher.png/revision/latest?cb=20200714205208",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"CRIT DMG\n",
+        "pass":"Press the Advantage\n",
+        "rank1":"After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.\n",
+        "rank5":"After defeating an enemy, ATK is increased by 24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.\n"
+      },
+      {
+        "name":"Prototype Aminus\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/68/Weapon_Prototype_Aminus.png/revision/latest?cb=20200620074014",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"Base ATK\n",
+        "pass":"Crush\n",
+        "rank1":"On hit, Normal or Charged Attacks have a 50% chance to deal an additional 240% ATK DMG to enemies within a small radius. Can only occur once every 15s.\n",
+        "rank5":"On hit, Normal or Charged Attacks have a 50% chance to deal an additional 480% ATK DMG to enemies within a small radius. Can only occur once every 15s.\n"
+      },
+      {
+        "name":"Lithic Blade\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/3a/Weapon_Lithic_Blade.png/revision/latest?cb=20200716172440",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"CRIT DMG\n",
+        "pass":"Lithic Axiom - Unity\n",
+        "rank1":"For every character in the party who hails from Liyue, the character who equips this weapon gains 6% ATK increase and 2% CRIT Rate increase.\n",
+        "rank5":"For every character in the party who hails from Liyue, the character who equips this weapon gains 10% ATK increase and 6% CRIT Rate increase.\n"
+      },
+      {
+        "name":"Favonius Greatsword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/9c/Weapon_Favonius_Greatsword.png/revision/latest?cb=20200620073408",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Critical Charge\n",
+        "rank1":"CRIT hits have a 60% chance to generate 1 Elemental Particle. Can only occur once every 12s.\n",
+        "rank5":"CRIT hits have a 100% chance to generate 1 Elemental Particle. Can only occur once every 6s.\n"
+      },
+      {
+        "name":"Royal Greatsword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/bf/Weapon_Royal_Greatsword.png/revision/latest?cb=20200620080351",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"Base ATK\n",
+        "pass":"Focus\n",
+        "rank1":"Upon damaging an enemy, increases CRIT Rate by 8%. Max 5 stacks. A CRIT hit removes all stacks.\n",
+        "rank5":"\n"
+      },
+      {
+        "name":"Quartz\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/71/Weapon_Quartz.png/revision/latest?cb=20200620071952",
+        "rarity":"3\n",
+        "baseAtk":"40\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Residual Heat\n",
+        "rank1":"Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 20% for 12s.\n",
+        "rank5":"Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 40% for 12s.\n"
+      },
+      {
+        "name":"Bloodtainted Greatsword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/4a/Weapon_Bloodtainted_Greatsword.png/revision/latest?cb=20200619065637",
+        "rarity":"3\n",
+        "baseAtk":"38\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Bane of Fire and Thunder\n",
+        "rank1":"Increases DMG against enemies affected by Pyro or Electro by 12%.\n",
+        "rank5":"Increases DMG against enemies affected by Pyro or Electro by 24%.\n"
+      },
+      {
+        "name":"Skyrider Greatsword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/6e/Weapon_Skyrider_Greatsword.png/revision/latest?cb=20200620073049",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"Physical DMG Bonus\n",
+        "pass":"Courage\n",
+        "rank1":"On hit, Normal or Charged Attacks increase ATK by 6% for 6s. Max 4 stacks. Can only occur once every 0.5s.\n",
+        "rank5":"On hit, Normal or Charged Attacks increase ATK by 10% for 6s. Max 4 stacks. Can only occur once every 0.5s.\n"
+      },
+      {
+        "name":"Ferrous Shadow\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/e9/Weapon_Ferrous_Shadow.png/revision/latest?cb=20200620071545",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"Base HP\n",
+        "pass":"Unbending\n",
+        "rank1":"When HP falls below 70%, increases Charged Attack DMG by 30%, and Charged Attacks become much harder to interrupt.\n",
+        "rank5":"When HP falls below 90%, increases Charged Attack DMG by 50% and Charged Attacks become much harder to interrupt.\n"
+      },
+      {
+        "name":"White Iron Greatsword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/56/Weapon_White_Iron_Greatsword.png/revision/latest?cb=20201004011636",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"DEF\n",
+        "pass":"Cull the Weak\n",
+        "rank1":"Defeating an opponent restores 8% HP.\n",
+        "rank5":"Defeating an opponent restores 16% HP.\n"
+      },
+      {
+        "name":"Debate Club\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/74/Weapon_Debate_Club.png/revision/latest?cb=20200620070915",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"ATK\n",
+        "pass":"Blunt Conclusion\n",
+        "rank1":"After using an Elemental Skill, Normal or Charged Attacks, on hit, deal an additional 60% ATK DMG in a small area. Effect lasts 15s. DMG can only occur once every 3s.\n",
+        "rank5":"After using an Elemental Skill, Normal or Charged Attacks, on hit, deal an additional 120% ATK DMG in a small area. Effect lasts 15s. DMG can only occur once every 3s.\n"
+      },
+      {
+        "name":"Old Merc's Pal\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/0/0b/Weapon_Old_Merc%27s_Pal.png/revision/latest?cb=20200620070546",
+        "rarity":"2\n",
+        "baseAtk":"33\n",
+        "secStat":"None\n",
+        "pass":"None\n",
+        "rank1":"None\n",
+        "rank5":"None\n"
+      },
+      {
+        "name":"Waster Greatsword\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/4c/Weapon_Waster_Greatsword.png/revision/latest?cb=20200620070417",
+        "rarity":"1\n",
+        "baseAtk":"23\n",
+        "secStat":"None\n",
+        "pass":"None\n",
+        "rank1":"None\n",
+        "rank5":"None\n"
+      }
+    ]
+  },
+  {
+    "name":"Catalysts\n",
+    "info":"Due to their magical nature, all Normal and Charged attacks performed with a Catalyst are considered elemental damage. The element of the damage depends on the wielder's natural element/vision.\n",
+    "weapons":[
+      {
+        "name":"Lost Prayer to the Sacred Winds\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/98/Weapon_Lost_Prayer_to_the_Sacred_Winds.png/revision/latest?cb=20200619014501",
+        "rarity":"5\n",
+        "baseAtk":"46\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Boundless Blessing\n",
+        "rank1":"Increases Movement SPD by 10%. When in battle, earn a 6% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.\n",
+        "rank5":"Increases Movement SPD by 10%. When in battle, earn a 14% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.\n"
+      },
+      {
+        "name":"Skyward Atlas\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/33/Weapon_Skyward_Atlas.png/revision/latest?cb=20200619015147",
+        "rarity":"5\n",
+        "baseAtk":"48\n",
+        "secStat":"Base ATK\n",
+        "pass":"Wandering Clouds\n",
+        "rank1":"Increases Elemental DMG Bonus by 12%. Normal Attack hits have a 50% chance to earn the favor of the clouds. which actively seek out nearby enemies to attack for 15s, dealing 160% ATK DMG. Can only occur once every 30s.\n",
+        "rank5":"Increases Elemental DMG Bonus by 24%. Normal Attack hits have a 50% chance to earn the favor of the clouds. which actively seek out nearby enemies to attack for 15s, dealing 320% ATK DMG. Can only occur once every 30s.\n"
+      },
+      {
+        "name":"Wine and Song\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/c6/Weapon_Wine_and_Song.png/revision/latest?cb=20200715012327",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Wind in the Square\n",
+        "rank1":"For every character in the party who hails from Mondstadt, the character who equips this weapon gains 8% ATK increase and 3% Movement SPD increase.\n",
+        "rank5":"For every character in the party who hails from Mondstadt, the character who equips this weapon gains 16% ATK increase and 5% Movement SPD increase.\n"
+      },
+      {
+        "name":"Blackcliff Amulet\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/21/Weapon_Blackcliff_Amulet.png/revision/latest?cb=20200619015409",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Exorcise\n",
+        "rank1":"Defeating an enemy increases the next Elemental Burst's DMG by 24%. Lasts for 3s. Max 3 stacks.\n",
+        "rank5":"Defeating an enemy increases the next Elemental Burst's DMG by 48%. Lasts for 3s. Max 3 stacks.\n"
+      },
+      {
+        "name":"Eye of Perception\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/6c/Weapon_Eye_of_Perception.png/revision/latest?cb=20200709192151",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"Base ATK\n",
+        "pass":"Echo\n",
+        "rank1":"Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 240% ATK as DMG. This bolt can bounce between enemies a maximum of 4 times. This effect can occur once every 12s.\n",
+        "rank5":"Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 360% ATK as DMG. This bolt can bounce between enemies a maximum of 4 times. This effect can occur once every 8s.\n"
+      },
+      {
+        "name":"Favonius Codex\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/36/Weapon_Favonius_Codex.png/revision/latest?cb=20200619015621",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Critical Charge\n",
+        "rank1":"CRIT hits have a 60% chance to generate 1 Elemental Particle. Can only occur once every 12s.\n",
+        "rank5":"CRIT hits have a 100% chance to generate 1 Elemental Particle. Can only occur once every 6s.\n"
+      },
+      {
+        "name":"Mappa Mare\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/4d/Weapon_Mappa_Mare.png/revision/latest?cb=20200619015830",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Infusion Scroll\n",
+        "rank1":"Triggering an Elemental reaction grants a 8% Elemental DMG Bonus for 10s. Max 2 stacks.\n",
+        "rank5":"Triggering an Elemental reaction grants a 16% Elemental DMG Bonus for 10s. Max 2 stacks.\n"
+      },
+      {
+        "name":"The Widsith\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/f0/Weapon_The_Widsith.png/revision/latest?cb=20200619021511",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"CRIT DMG\n",
+        "pass":"Debut\n",
+        "rank1":"When a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s.\nRecitative: ATK is increased by 60%.\nAria: Increases all Elemental DMG by 48%.\nInterlude: Elemental Mastery is increased by 240.\n\n",
+        "rank5":"When a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s.\nRecitative: ATK is increased by 120%.\nAria: Increases all Elemental DMG by 96%.\nInterlude: Elemental Mastery is increased by 480.\n\n"
+      },
+      {
+        "name":"Solar Pearl\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/fc/Weapon_Solar_Pearl.png/revision/latest?cb=20200619020906",
+        "rarity":"4\n",
+        "baseAtk":"42\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Solar Shine\n",
+        "rank1":"Normal Attack hits increase Elemental Skill and Elemental Burst DMG by 20% for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by 20% for 6s.\n",
+        "rank5":"Normal Attacks hits increases Elemental Skill and Elemental Burst DMG by 40% for 6s. Likewise, Elemental Skill or Elemental Burst hits increases Normal Attack DMG by 40% for 6s.\n"
+      },
+      {
+        "name":"Prototype Malice\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/32/Weapon_Prototype_Malice.png/revision/latest?cb=20200619020021",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"Base HP\n",
+        "pass":"Golden Plating\n",
+        "rank1":"Using an Elemental Burst regenerates 4 Energy every 2s for 6s. Additionally, all party members will regenerate 4% HP every 2s for this duration.\n",
+        "rank5":"Using an Elemental Burst regenerates 6 Energy every 2s for 6s. Additionally, all party members will regenerate 6% HP every 2s for this duration.\n"
+      },
+      {
+        "name":"Royal Grimoire\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/99/Weapon_Royal_Grimoire.png/revision/latest?cb=20200619020303",
+        "rarity":"4\n",
+        "baseAtk":"44\n",
+        "secStat":"Base ATK\n",
+        "pass":"Energy Blast\n",
+        "rank1":"Normal Attack hits have a 50% chance to fire an Energy Blast at enemies, which deals 240% ATK DMG. Can only occur once every 10s.\n",
+        "rank5":"Normal Attack hits have a 50% chance to fire an Energy Blast at enemies, which deals 480% ATK DMG. Can only occur once every 10s.\n"
+      },
+      {
+        "name":"Sacrificial Fragments\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/6c/Weapon_Sacrificial_Fragments.png/revision/latest?cb=20200619020606",
+        "rarity":"4\n",
+        "baseAtk":"41\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Composed\n",
+        "rank1":"After dealing damage to an enemy with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s.\n",
+        "rank5":"After dealing damage to an enemy with an Elemental Skill, the skill has an 80% chance to end its own CD. Can only occur once every 14s.\n"
+      },
+      {
+        "name":"Twin Nephrite\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/e3/Weapon_Twin_Nephrite.png/revision/latest?cb=20201005035638",
+        "rarity":"3\n",
+        "baseAtk":"40\n",
+        "secStat":"CRIT Rate\n",
+        "pass":"Guerilla Tactic\n",
+        "rank1":"Defeating an enemy increases Movement SPD and ATK by 12% for 15s.\n",
+        "rank5":"Defeating an enemy increases Movement SPD and ATK by 20% for 15s.\n"
+      },
+      {
+        "name":"Thrilling Tales of Dragon Slayers\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/19/Weapon_Thrilling_Tales_of_Dragon_Slayers.png/revision/latest?cb=20200619023052",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"Base HP\n",
+        "pass":"Legacy\n",
+        "rank1":"When switching characters, the new character taking the field has their ATK increased by 24% for 10s. This effect can only occur once every 20s.\n",
+        "rank5":"When switching characters, the new character taking the field has their ATK increased by 48% for 10s. This effect can only occur once every 20s.\n"
+      },
+      {
+        "name":"Amber Catalyst\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/97/Weapon_Amber_Catalyst.png/revision/latest?cb=20200619021800",
+        "rarity":"3\n",
+        "baseAtk":"40\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Elemental Mastery\n",
+        "rank1":"Normal Attack hits increase all Elemental DMG by 6% for 6s. Max 2 stacks.\n",
+        "rank5":"Normal Attack hits increase all Elemental DMG by 12% for 6s. Max 2 stacks.\n"
+      },
+      {
+        "name":"Magic Guide\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/39/Weapon_Magic_Guide.png/revision/latest?cb=20200619022536",
+        "rarity":"3\n",
+        "baseAtk":"38\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Bane of Storm and Tide\n",
+        "rank1":"Increases DMG against enemies affected by Hydro or Electro by 12%.\n",
+        "rank5":"Increases DMG against enemies affected by Hydro or Electro by 24%.\n"
+      },
+      {
+        "name":"Otherworldly Story\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/11/Weapon_Otherworldly_Story.png/revision/latest?cb=20201004010532",
+        "rarity":"3\n",
+        "baseAtk":"39\n",
+        "secStat":"Energy Recharge\n",
+        "pass":"Energy Shower\n",
+        "rank1":"Each Elemental Orb or Particle collected restores 1% HP.\n",
+        "rank5":"Each Elemental Orb or Particle collected restores 2% HP.\n"
+      },
+      {
+        "name":"Emerald Orb\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/7c/Weapon_Emerald_Orb.png/revision/latest?cb=20200619022211",
+        "rarity":"3\n",
+        "baseAtk":"40\n",
+        "secStat":"Elemental Mastery\n",
+        "pass":"Rapids\n",
+        "rank1":"Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by 20% for 12s.\n",
+        "rank5":"Upon causing a Vaporize, Electro-Charged, Frozen, or a Hydro-infused Swirl reaction, increases ATK by 40% for 12s.\n"
+      },
+      {
+        "name":"Pocket Grimoire\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/16/Weapon_Pocket_Grimoire.png/revision/latest?cb=20200619024903",
+        "rarity":"2\n",
+        "baseAtk":"33\n",
+        "secStat":"None\n",
+        "pass":"None\n",
+        "rank1":"None\n",
+        "rank5":"None\n"
+      },
+      {
+        "name":"Apprentice's Notes\n",
+        "img":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/cf/Weapon_Apprentice%27s_Notes.png/revision/latest?cb=20200619025054",
+        "rarity":"1\n",
+        "baseAtk":"23\n",
+        "secStat":"None\n",
+        "pass":"None\n",
+        "rank1":"None\n",
+        "rank5":"None\n"
+      }
+    ]
+  }
+]

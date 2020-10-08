@@ -4,7 +4,7 @@ import json
 dict_playableChar = {}
 allplayabledicts = []
 
-def buildPlayableCharDict():
+def buildPlayableCharDict():   #Playable Chars
     import charScraper as cs
     cl = cs.charList
     for x in range(len(cs.charList)):
@@ -25,6 +25,8 @@ def buildPlayableCharDict():
     with open("docs/characters/playableChar.json", 'w') as fp:
         json.dump(dict_playableChar,fp,indent=2,separators=(',', ':'))
 
+
+#---------------------------------------------------------------
 dict_upcomingChar = {}
 
 def buildUpcomingCharDict():
@@ -43,7 +45,7 @@ def buildUpcomingCharDict():
     with open("docs/characters/upcomingChar.json", 'w') as fp:
         json.dump(dict_upcomingChar,fp,indent=2,separators=(',', ':'))
 
-
+#-----------------------------------------------------------------------
 dict_nonPlayableChar = {}
 
 def buildNonPlayableCharDict():
@@ -61,3 +63,30 @@ def buildNonPlayableCharDict():
 
     with open("docs/characters/nonplayableChar.json", 'w') as fp:
         json.dump(dict_nonPlayableChar,fp,indent=2,separators=(',', ':'))
+
+
+#-----------------------------------------------------------------------
+
+dict_weaponTypes = {}
+allweaponTypeDicts = []
+def buildWeaponDict():
+    import wepScraper as ws
+    WL = ws.wepList
+    WL.remove(WL[0])
+    for x in range(len(WL)):
+        wepTypeToAdd = {"name": WL[x].typeName,
+        "info": WL[x].typeInfo,
+        "weapons": WL[x].fullWeapon}
+
+        allweaponTypeDicts.append(wepTypeToAdd)
+    
+
+    dict_weaponTypes = allweaponTypeDicts
+
+    #print(WL[0].fullWeapon)
+    
+    
+    with open("docs/weapons/weaponTypes.json", 'w') as fp:
+        json.dump(dict_weaponTypes,fp,indent=2,separators=(',', ':'))
+    
+    

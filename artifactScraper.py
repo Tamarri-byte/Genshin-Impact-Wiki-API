@@ -19,31 +19,32 @@ class artifactClass:
 
 listOfArtifacts = []
 
-for TableObj in artTable.find_all('tr'):
-    artRow = TableObj.find_all('td')
-    index = 0
-    newArtifact = artifactClass('name','icon','bonus2','bonus4')
+def get4PieceArtifacts():
+    for TableObj in artTable.find_all('tr'):
+        artRow = TableObj.find_all('td')
+        index = 0
+        newArtifact = artifactClass('name','icon','bonus2','bonus4')
 
-    for artColumn in artRow:
-        if(index == 0):
-            newArtifact.name = artColumn.text
-        elif(index == 1):
-            #newArtifact.icon = artColumn.text
-            imgParent = artColumn.find('a')
-            img = imgParent.find('img')
-            if(img):
-                print(img['data-src'])
-            else:
-                print("no image")
-        elif(index == 2):
-            newArtifact.bonus2 = artColumn.text
-        elif(index == 3):
-            newArtifact.bonus4 = artColumn.text
-        
-        index += 1
-        if(index >= 4):
-            index = 0
-            listOfArtifacts.append(newArtifact)
+        for artColumn in artRow:
+            if(index == 0):
+                newArtifact.name = artColumn.text
+            elif(index == 1):
+                #newArtifact.icon = artColumn.text
+                imgParent = artColumn.find('a')
+                img = imgParent.find('img')
+                if(img):
+                    newArtifact.icon = img['data-src']
+                else:
+                    newArtifact.icon = "no image"
+            elif(index == 2):
+                newArtifact.bonus2 = artColumn.text
+            elif(index == 3):
+                newArtifact.bonus4 = artColumn.text
+            
+            index += 1
+            if(index >= 4):
+                index = 0
+                listOfArtifacts.append(newArtifact)
         
 
         

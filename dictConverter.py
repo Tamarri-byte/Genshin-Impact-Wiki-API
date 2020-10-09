@@ -88,5 +88,30 @@ def buildWeaponDict():
     
     with open("docs/weapons/weaponTypes.json", 'w') as fp:
         json.dump(dict_weaponTypes,fp,indent=2,separators=(',', ':'))
+
+
+
+#------------------------------------------------------------------------
+
+dict_4pieceArtifacts = {}
+allArtiDicts = []
+
+def build4pieceArtifactsDict():
+    import artifactScraper as aS
+    AL = aS.listOfArtifacts
+    for x in range(len(AL)):
+        artifactToAdd = {"name": AL[x].name.strip(),
+        "icon": AL[x].icon.strip(),
+        "bonus2": AL[x].bonus2.strip(),
+        "bonus4": AL[x].bonus4.strip()}
+
+        allArtiDicts.append(artifactToAdd)
+
     
+    dict_4pieceArtifacts = allArtiDicts
+
+    with open("docs/artifacts/4pieceArtifacts.json", 'w') as fp:
+        json.dump(dict_4pieceArtifacts,fp,indent=2,separators=(',', ':'))
+
+
     

@@ -74,8 +74,8 @@ def buildWeaponDict():
     WL = ws.wepList
     WL.remove(WL[0])
     for x in range(len(WL)):
-        wepTypeToAdd = {"name": WL[x].typeName,
-        "info": WL[x].typeInfo,
+        wepTypeToAdd = {"name": WL[x].typeName.strip(),
+        "info": WL[x].typeInfo.strip(),
         "weapons": WL[x].fullWeapon}
 
         allweaponTypeDicts.append(wepTypeToAdd)

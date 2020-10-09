@@ -106,14 +106,14 @@ def getFullWeaponData(url,newWepType):
         
         listOfDict = []
         for x in range(len(fullWepList)):
-            fullWepToAdd = {"name": fullWepList[x].wepName,
-            "img": fullWepList[x].wepImage,
-            "rarity": fullWepList[x].wepRarity,
-            "baseAtk": fullWepList[x].wepBaseAtk,
-            "secStat": fullWepList[x].wepSecStat,
-            "pass": fullWepList[x].wepPass,
-            "rank1": fullWepList[x].wepRank1,
-            "rank5": fullWepList[x].wepRank5,}
+            fullWepToAdd = {"name": fullWepList[x].wepName.strip(),
+            "img": fullWepList[x].wepImage.strip(),
+            "rarity": fullWepList[x].wepRarity.strip(),
+            "baseAtk": fullWepList[x].wepBaseAtk.strip(),
+            "secStat": fullWepList[x].wepSecStat.strip(),
+            "pass": fullWepList[x].wepPass.strip(),
+            "rank1": fullWepList[x].wepRank1.strip(),
+            "rank5": fullWepList[x].wepRank5.strip()}
 
             
             testList.append(fullWepToAdd)

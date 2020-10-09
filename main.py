@@ -16,9 +16,9 @@ import wepScraper as ws
 #############################
 #Get Weapon Categories
 #############################
-ws.getWeaponTypes()
+#ws.getWeaponTypes()
 
 #############################
 # Convert wep dict to json #
 #############################
-dc.buildWeaponDict()
+#dc.buildWeaponDict()

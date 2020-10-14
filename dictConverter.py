@@ -114,4 +114,50 @@ def build4pieceArtifactsDict():
         json.dump(dict_4pieceArtifacts,fp,indent=2,separators=(',', ':'))
 
 
+#------------------------------------------------------------------------
+
+dict_normalFood = {}
+allNormFoodDicts = []
+
+dict_specialFood = {}
+allSpecialFoodDicts = []
+
+def buildNormFoodDict():
+    import foodScraper as fs
+    NFL = fs.listOfNormFood
+    for x in range(len(NFL)):
+        nFoodToAdd = {"name": NFL[x].name.strip(),
+        "icon": NFL[x].icon.strip(),
+        "rarity": NFL[x].rarity.strip(),
+        "type": NFL[x].type.strip(),
+        "effect": NFL[x].effect.strip(),}
+
+        allNormFoodDicts.append(nFoodToAdd)
+
     
+    dict_normalFood = allNormFoodDicts
+
+    with open("docs/food/normalFood.json", 'w') as fp:
+        json.dump(dict_normalFood,fp,indent=2,separators=(',', ':'))
+
+
+
+
+def buildSpecFoodDict():
+    import foodScraper as fs
+    SFL = fs.listOfSpecFood
+    for x in range(len(SFL)):
+        sFoodToAdd = {"name": SFL[x].name.strip(),
+        "icon": SFL[x].icon.strip(),
+        "rarity": SFL[x].rarity.strip(),
+        "type": SFL[x].type.strip(),
+        "effect": SFL[x].effect.strip(),
+        "char": SFL[x].char.strip(),}
+
+        allSpecialFoodDicts.append(sFoodToAdd)
+
+    
+    dict_specialFood = allSpecialFoodDicts
+
+    with open("docs/food/specialFood.json", 'w') as fp:
+        json.dump(dict_specialFood,fp,indent=2,separators=(',', ':'))

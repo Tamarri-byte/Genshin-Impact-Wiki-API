@@ -1,0 +1,146 @@
+[
+  {
+    "name":"\"Once Upon a Time in Mondstadt\"",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/e0/Item_%22Once_Upon_a_Time_in_Mondstadt%22.png/revision/latest?cb=20200718234726",
+    "rarity":"3",
+    "type":"Warrior",
+    "effect":"Increases all party members' CRIT Rate by 20% and CRIT DMG by 20% for 300s.",
+    "char":"Diluc"
+  },
+  {
+    "name":"Caelum Terra Mora Meat",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Caelum_Terra_Mora_Meat.png/revision/latest?cb=20200720163032",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "char":"Ningguang"
+  },
+  {
+    "name":"Cold Noodles with Mountain Delicacies",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/10/Item_Cold_Noodles_with_Mountain_Delicacies.png/revision/latest?cb=20201008071504",
+    "rarity":"2",
+    "type":"Adventurer",
+    "effect":"Restores 80 stamina.",
+    "char":"Chongyun"
+  },
+  {
+    "name":"Countryside Delicacy",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/33/Item_Countryside_Delicacy.png/revision/latest?cb=20201014092629",
+    "rarity":"2",
+    "type":"Guardian",
+    "effect":"Restores 26% of Max HP to all party members and regenerates 570 HP every 5s for 30s.",
+    "char":"Xingqiu"
+  },
+  {
+    "name":"Die Heilige Sinfonie",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/c3/Item_Die_Heilige_Sinfonie.png/revision/latest?cb=20201014093446",
+    "rarity":"3",
+    "type":"Warrior",
+    "effect":"Increases all party members' Physical DMG by 55% for 300s.",
+    "char":"Fischl"
+  },
+  {
+    "name":"Fishy Toast",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/9d/Item_Fishy_Toast.png/revision/latest?cb=20200726211253",
+    "rarity":"2",
+    "type":"Sage",
+    "effect":"Increases all party members' DEF by 141 for 300s.",
+    "char":"Klee"
+  },
+  {
+    "name":"Fruity Skewers",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Fruity_Skewers.png/revision/latest?cb=20201014093505",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Restores 16% of Max HP and an additional 1,350 HP.",
+    "char":"Kaeya"
+  },
+  {
+    "name":"Invigorating Pizza",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/5f/Item_Invigorating_Pizza.png/revision/latest?cb=20201010070749",
+    "rarity":"3",
+    "type":"Guardian",
+    "effect":"Restores 34% of Max HP to all party members and regenerates 980 HP every 5s for 30s.",
+    "char":"Jean"
+  },
+  {
+    "name":"Lighter-Than-Air Pancake",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/3b/Item_Lighter-Than-Air_Pancake.png/revision/latest?cb=20201014093618",
+    "rarity":"2",
+    "type":"Guardian",
+    "effect":"Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+    "char":"Noelle"
+  },
+  {
+    "name":"Mysterious Bolognese",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/16/Item_Mysterious_Bolognese.png/revision/latest?cb=20201014093653",
+    "rarity":"2",
+    "type":"Guardian",
+    "effect":"Restores 26% of Max HP to all party members and regenerates 570 HP every 5s for 30s.",
+    "char":"Lisa"
+  },
+  {
+    "name":"Outrider's Champion Steak!",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/9/95/Item_Outrider%27s_Champion_Steak%21.png/revision/latest?cb=20201014093800",
+    "rarity":"1",
+    "type":"Warrior",
+    "effect":"Revives a character and restores \"10\"% of Max HP, then restores an additional \"150\" HP.",
+    "char":"Amber"
+  },
+  {
+    "name":"Puppy-Paw Hash Brown",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/0/0d/Item_Puppy-Paw_Hash_Brown.png/revision/latest?cb=20200726205253",
+    "rarity":"3",
+    "type":"Guardian",
+    "effect":"Restores 40% of Max HP and an additional 3,350 HP.",
+    "char":"Razor"
+  },
+  {
+    "name":"Sauteed Meat Slices",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/32/Item_Sauteed_Meat_Slices.png/revision/latest?cb=20200726210712",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Revives a character and restores \"10\"% of Max HP, then restores an additional \"150\" HP.",
+    "char":"Beidou"
+  },
+  {
+    "name":"Spicy Stew",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/fd/Item_Spicy_Stew.png/revision/latest?cb=20201014093820",
+    "rarity":"2",
+    "type":"Adventurer",
+    "effect":"Decreases Stamina depleted by sprinting for all party members by 25% for 1500s.",
+    "char":"Barbara"
+  },
+  {
+    "name":"Supreme Wisdom (Life)",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/29/Item_Supreme_Wisdom_%28Life%29.png/revision/latest?cb=20201003072231",
+    "rarity":"2",
+    "type":"Warrior",
+    "effect":"Increases all party members' CRIT Rate by 16% for 300s.",
+    "char":"Mona"
+  },
+  {
+    "name":"Teyvat Charred Egg",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/c5/Item_Teyvat_Charred_Egg.png/revision/latest?cb=20201014094227",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+    "char":"Bennett"
+  },
+  {
+    "name":"True Barbatos Ratatouille",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/16/Item_True_Barbatos_Ratatouille.png/revision/latest?cb=20200722145845",
+    "rarity":"3",
+    "type":"Adventurer",
+    "effect":"Decreases all party members' gliding and sprinting Stamina consumption by \"25\"% for 1800s.",
+    "char":"Venti"
+  },
+  {
+    "name":"Wanmin Restaurant's Boiled Fish",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Wanmin_Restaurant%27s_Boiled_Fish.png/revision/latest?cb=20200722151141",
+    "rarity":"3",
+    "type":"Guardian",
+    "effect":"Restores 34% of Max HP to all party members and regenerates 1410 HP every 5s for 30s.",
+    "char":"Xiangling"
+  }
+]

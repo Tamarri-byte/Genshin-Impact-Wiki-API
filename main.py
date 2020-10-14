@@ -2,6 +2,7 @@ import charScraper as cs
 import dictConverter as dc
 import wepScraper as ws
 import artifactScraper as AS
+import foodScraper as fs
 
 #############################
 # Get Playable Chars        #
@@ -29,10 +30,23 @@ import artifactScraper as AS
 #############################
 #Get Artifact Categories
 #############################
-AS.get4PieceArtifacts()
+#AS.get4PieceArtifacts()
 
 
 #################################
 # Convert artifact dict to json #
 #################################
-dc.build4pieceArtifactsDict()
+#dc.build4pieceArtifactsDict()
+
+
+#################################
+#Get Normal Food & Special Food #
+#################################
+#fs.getNormalFood()
+#fs.getSpecialFood()
+
+#################################
+# Convert Food Dicts into Json  #
+#################################
+#dc.buildNormFoodDict()
+#dc.buildSpecFoodDict()

@@ -1,0 +1,317 @@
+[
+  {
+    "name":"Adeptus' Temptation",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/5e/Item_Adeptus%27_Temptation.png/revision/latest?cb=20201014092551",
+    "rarity":"5",
+    "type":"Warrior",
+    "effect":"Increases all party members' ATK by 260~372 and CRIT Rate by 8~12% for 300s."
+  },
+  {
+    "name":"Almond Tofu",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/5f/Item_Almond_Tofu.png/revision/latest?cb=20201014092558",
+    "rarity":"2",
+    "type":"Warrior",
+    "effect":"Increases all party members' ATK by 66~95 for 300s."
+  },
+  {
+    "name":"Apple",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Apple.png/revision/latest?cb=20201014094241",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Restores 300 HP"
+  },
+  {
+    "name":"Apple Cider Vinegar",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/21/Item_Apple_Cider_Vinegar.png/revision/latest?cb=20201014094237",
+    "rarity":"2",
+    "type":"Guardian",
+    "effect":"Restores 26% of Max HP to all party members and regenerates 570 HP every 5s for 30s"
+  },
+  {
+    "name":"Barbatos Ratatouille",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/a3/Item_Barbatos_Ratatouille.png/revision/latest?cb=20201014092604",
+    "rarity":"3",
+    "type":"Adventurer",
+    "effect":"Decreases all party member's gliding and sprinting Stamina consumption by (var1)% for 900s"
+  },
+  {
+    "name":"Berry & Mint Burst",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Berry_%26_Mint_Burst.png/revision/latest?cb=20201004053109",
+    "rarity":"2",
+    "type":"Warrior",
+    "effect":"Increases all party members' CRIT Rate by 16% for 300s."
+  },
+  {
+    "name":"Black-Back Perch Stew",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/3/31/Item_Black-Back_Perch_Stew.png/revision/latest?cb=20201014092610",
+    "rarity":"3",
+    "type":"Guardian",
+    "effect":"Restores (var1)% of Max HP to all party members and regenerates (var2) HP every 5s for 30s."
+  },
+  {
+    "name":"Calla Lily Seafood Soup",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Calla_Lily_Seafood_Soup.png/revision/latest?cb=20201014092615",
+    "rarity":"3",
+    "type":"Sage",
+    "effect":"Increases all party members' DEF by (var1) for 300s."
+  },
+  {
+    "name":"Chicken-Mushroom Skewer",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/fd/Item_Chicken-Mushroom_Skewer.png/revision/latest?cb=20201014092620",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Restores (var1)% of Max HP and (var2) HP to the selected character."
+  },
+  {
+    "name":"Cold Cut Platter",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/16/Item_Cold_Cut_Platter.png/revision/latest?cb=20201014092625",
+    "rarity":"3",
+    "type":"Warrior",
+    "effect":"Increases all party members' Physical DMG by (var1)% for 300s."
+  },
+  {
+    "name":"Crab, Ham & Veggie Bake",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/af/Item_Crab%2C_Ham_%26_Veggie_Bake.png/revision/latest?cb=20201008193225",
+    "rarity":"3",
+    "type":"Guardian",
+    "effect":"Revives the selected character. Restores 900~1,500 HP."
+  },
+  {
+    "name":"Cream Stew",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/7b/Item_Cream_Stew.png/revision/latest?cb=20201014092634",
+    "rarity":"2",
+    "type":"Adventurer",
+    "effect":"Decreases Stamina depleted by sprinting for all party members by 15~25% for 900s."
+  },
+  {
+    "name":"Crystal Shrimp",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/4a/Item_Crystal_Shrimp.png/revision/latest?cb=20201014092641",
+    "rarity":"2",
+    "type":"Guardian",
+    "effect":"Restores 18~22% of Max HP to all party members and regenerates 300~470 HP every 5s for 30s."
+  },
+  {
+    "name":"Fisherman's Toast",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/4c/Item_Fisherman%27s_Toast.png/revision/latest?cb=20201014093451",
+    "rarity":"2",
+    "type":"Sage",
+    "effect":"Increases all party members' DEF by 88~126 for 300s."
+  },
+  {
+    "name":"Flaming Red Bolognese",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/73/Item_Flaming_Red_Bolognese.png/revision/latest?cb=20201014093504",
+    "rarity":"2",
+    "type":"Guardian",
+    "effect":"Restores 18~22% of Max HP to all party members and regenerates 300~470 HP every 5s for 30s."
+  },
+  {
+    "name":"Fried Radish Balls",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Fried_Radish_Balls.png/revision/latest?cb=20201014093455",
+    "rarity":"2",
+    "type":"Warrior",
+    "effect":"Increases all party members' ATK by 66~95 for 300s."
+  },
+  {
+    "name":"Golden Crab",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/a3/Item_Golden_Crab.png/revision/latest?cb=20201012062036",
+    "rarity":"4",
+    "type":"Sage",
+    "effect":"Increases all party members' DEF by 261 and healing effects by 8% for 300s."
+  },
+  {
+    "name":"Grilled Tiger Fish",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Grilled_Tiger_Fish.png/revision/latest?cb=20201014093510",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Restores 8~10% of Max HP and an additional 800~1,200 HP."
+  },
+  {
+    "name":"Holy Water",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/2a/Item_Holy_Water.png/revision/latest?cb=20201010072600",
+    "rarity":"3",
+    "type":"Guardian",
+    "effect":"."
+  },
+  {
+    "name":"Jade Parcels",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Jade_Parcels.png/revision/latest?cb=20201014093516",
+    "rarity":"4",
+    "type":"Warrior",
+    "effect":"Increases all party members' ATK by 224~320 and CRIT Rate by 6~10% for 300s."
+  },
+  {
+    "name":"Jewelry Soup",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/5b/Item_Jewelry_Soup.png/revision/latest?cb=20201014093519",
+    "rarity":"2",
+    "type":"Sage",
+    "effect":"Increases all party members' DEF by 88~126 for 300s."
+  },
+  {
+    "name":"Jueyun Chili Chicken",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/72/Item_Jueyun_Chili_Chicken.png/revision/latest?cb=20201014093525",
+    "rarity":"2",
+    "type":"Warrior",
+    "effect":"Increases all party members' CRIT Rate by 6~12% for 300s."
+  },
+  {
+    "name":"Lotus Seed and Bird Egg Soup",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/53/Item_Lotus_Seed_and_Bird_Egg_Soup.png/revision/latest?cb=20201014093622",
+    "rarity":"2",
+    "type":"Adventurer",
+    "effect":"Decreases all party member's sprinting Stamina consumption by 15~25% for 900s"
+  },
+  {
+    "name":"Matsutake Meat Rolls",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/15/Item_Matsutake_Meat_Rolls.png/revision/latest?cb=20201014093628",
+    "rarity":"2",
+    "type":"Guardian",
+    "effect":"Restores 20~24% of Max HP and an additional 900~1,500 HP."
+  },
+  {
+    "name":"Mondstadt Grilled Fish",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/c9/Item_Mondstadt_Grilled_Fish.png/revision/latest?cb=20201014093631",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Revives a character and restores 50~150 HP."
+  },
+  {
+    "name":"Mondstadt Hash Brown",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/e8/Item_Mondstadt_Hash_Brown.png/revision/latest?cb=20201014093637",
+    "rarity":"3",
+    "type":"Guardian",
+    "effect":"Restores 30~34% of Max HP and an additional 600~1,900 HP."
+  },
+  {
+    "name":"Mora Meat",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Mora_Meat.png/revision/latest?cb=20201014093642",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Revives a character and restores 50~150 HP."
+  },
+  {
+    "name":"Mushroom Pizza",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/e/e2/Item_Mushroom_Pizza.png/revision/latest?cb=20201014093648",
+    "rarity":"3",
+    "type":"Guardian",
+    "effect":"Restores 26~30% of Max HP to all party members and regenerates 450~790 HP every 5s for 30s."
+  },
+  {
+    "name":"Noodles with Mountain Delicacies",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Noodles_with_Mountain_Delicacies.png/revision/latest?cb=20201014093657",
+    "rarity":"2",
+    "type":"Adventurer",
+    "effect":"Restores 40~60 Stamina"
+  },
+  {
+    "name":"Northern Smoked Chicken",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/0/03/Item_Northern_Smoked_Chicken.png/revision/latest?cb=20201014093705",
+    "rarity":"2",
+    "type":"Adventurer",
+    "effect":"Restores 40~60 Stamina"
+  },
+  {
+    "name":"Pop's Teas",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/5/52/Item_Pop%27s_Teas.png/revision/latest?cb=20201014093805",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Restores 14% of Max HP to the selected character and regenerates 350 HP every 5s for 30s."
+  },
+  {
+    "name":"Qingce Stir Fry",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/71/Item_Qingce_Stir_Fry.png/revision/latest?cb=20201004060804",
+    "rarity":"3",
+    "type":"Warrior",
+    "effect":"Increases all party members' ATK by 160~228 for 300s."
+  },
+  {
+    "name":"Radish Veggie Soup",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/7e/Item_Radish_Veggie_Soup.png/revision/latest?cb=20201014093809",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Restores 8~10% of Max HP to all party members and regenerates 210~300 HP every 5s for 30s"
+  },
+  {
+    "name":"Satisfying Salad",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Satisfying_Salad.png/revision/latest?cb=20201014093814",
+    "rarity":"2",
+    "type":"Warrior",
+    "effect":"Increases all party members' CRIT rate by 6~12% for 300s."
+  },
+  {
+    "name":"Sauteed Matsutake",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/7/70/Item_Sauteed_Matsutake.png/revision/latest?cb=20200706023446",
+    "rarity":"3",
+    "type":"Warrior",
+    "effect":"Increases all party members' ATK by 160~228 for 300s."
+  },
+  {
+    "name":"Squirrel Fish",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/c/ce/Item_Squirrel_Fish.png/revision/latest?cb=20200715153844",
+    "rarity":"3",
+    "type":"Guardian",
+    "effect":"Restores 30~34% of Max HP and an additional 600~1900 HP."
+  },
+  {
+    "name":"Steak",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/a/a0/Item_Steak.png/revision/latest?cb=20201014093824",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Revives a character and restores 50~150 HP."
+  },
+  {
+    "name":"Sticky Honey Roast",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/85/Item_Sticky_Honey_Roast.png/revision/latest?cb=20200623113403",
+    "rarity":"3",
+    "type":"Adventurer",
+    "effect":"Decreases all party member's climbing and sprinting Stamina consumption by 15~25% for 900s"
+  },
+  {
+    "name":"Stir-Fried Filet",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Stir-Fried_Filet.png/revision/latest?cb=20201014093828",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Revives a character and restores 50~150 HP."
+  },
+  {
+    "name":"Sunsettia",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/4/45/Item_Sunsettia.png/revision/latest?cb=20201014093833",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Restores 300 HP"
+  },
+  {
+    "name":"Sweet Madame",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/1/12/Item_Sweet_Madame.png/revision/latest?cb=20201014094216",
+    "rarity":"2",
+    "type":"Guardian",
+    "effect":"Restores 20~24% of Max HP and an additional 900~1500 HP."
+  },
+  {
+    "name":"Tea Break Pancake",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/25/Item_Tea_Break_Pancake.png/revision/latest?cb=20201014094224",
+    "rarity":"2",
+    "type":"Guardian",
+    "effect":"Revives a character and restores 250~550 HP."
+  },
+  {
+    "name":"Teyvat Fried Egg",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/2/20/Item_Teyvat_Fried_Egg.png/revision/latest?cb=20201014094229",
+    "rarity":"1",
+    "type":"Guardian",
+    "effect":"Revives a character and restores 50~150 HP."
+  },
+  {
+    "name":"Wolfhook Juice",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/6/6e/Item_Wolfhook_Juice.png/revision/latest?cb=20201014094233",
+    "rarity":"2",
+    "type":"Warrior",
+    "effect":"Increases all party members' ATK by 114 for 300s."
+  },
+  {
+    "name":"Zhongyuan Chop Suey",
+    "icon":"https://vignette.wikia.nocookie.net/gensin-impact/images/8/8c/Item_Zhongyuan_Chop_Suey.png/revision/latest?cb=20200623113757",
+    "rarity":"3",
+    "type":"Adventurer",
+    "effect":"Decreases all party members' climbing and sprinting Stamina consumption by 15~25% for 900s."
+  }
+]

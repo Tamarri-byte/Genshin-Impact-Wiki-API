@@ -7,12 +7,12 @@ import foodScraper as fs
 #############################
 # Get Playable Chars        #
 #############################
-#cs.getPlayableCharacters()
+cs.getPlayableCharacters()
 
 #############################
 # Convert char dict to json #
 #############################
-#dc.buildPlayableCharDict()
+dc.buildPlayableCharDict()
 
 
 #############################

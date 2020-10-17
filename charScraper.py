@@ -72,12 +72,14 @@ def getPlayableCharacters():
 
     #Get Data from focused char page
     chIndex = 0
+
     for char in charList:
         url = char.fullDataURL
         specCharReq = requests.get(url)
         specCharReqSoup = BeautifulSoup(specCharReq.text,'html.parser')
         bdt = specCharReqSoup.findAll('table',class_ = 'wikitable')
         check = bool
+        testList = []
         if len(bdt) > 1:
             check = True
         else:
@@ -127,11 +129,11 @@ def getPlayableCharacters():
                 "type": tl[x].type.strip(),
                 "icon": tl[x].icon.strip(),
                 "info": tl[x].info.strip()}
-                if tl[x].name in char.charTalentInfo:
-                    char.charTalentInfo[tl[x].name].append(talentToAdd)
-                else:
-                    char.charTalentInfo[tl[x].name] = [talentToAdd]
-        
+                
+                testList.append(talentToAdd)
+
+
+            char.charTalentInfo = testList
                 
         chIndex += 1        
 
